@@ -1,0 +1,1102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK_OK	oem.h	/^    ACK_OK                  = 0x30,$/;"	e	enum:__anon3
+ADAM7_DX	lodepng.cpp	/^static const unsigned ADAM7_DX[7] = { 8, 8, 4, 4, 2, 2, 1 }; \/*x delta values*\/$/;"	v	file:
+ADAM7_DY	lodepng.cpp	/^static const unsigned ADAM7_DY[7] = { 8, 8, 8, 4, 4, 2, 2 }; \/*y delta values*\/$/;"	v	file:
+ADAM7_IX	lodepng.cpp	/^static const unsigned ADAM7_IX[7] = { 0, 4, 0, 2, 0, 1, 0 }; \/*x start values*\/$/;"	v	file:
+ADAM7_IY	lodepng.cpp	/^static const unsigned ADAM7_IY[7] = { 0, 0, 4, 0, 2, 0, 1 }; \/*y start values*\/$/;"	v	file:
+ASSERT_EQUALS	lodepng_unittest.cpp	156;"	d	file:
+Adam7_deinterlace	lodepng.cpp	/^static void Adam7_deinterlace(unsigned char* out, const unsigned char* in, unsigned w, unsigned h, unsigned bpp)$/;"	f	file:
+Adam7_getpassvalues	lodepng.cpp	/^static void Adam7_getpassvalues(unsigned passw[7], unsigned passh[7], size_t filter_passstart[8],$/;"	f	file:
+Adam7_interlace	lodepng.cpp	/^static void Adam7_interlace(unsigned char* out, const unsigned char* in, unsigned w, unsigned h, unsigned bpp)$/;"	f	file:
+BASE64	lodepng_unittest.cpp	/^static const std::string BASE64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/";$/;"	v	file:
+CCommSerial	commbase.cpp	/^CCommSerial::CCommSerial() {$/;"	f	class:CCommSerial
+CCommSerial	commbase.h	/^class CCommSerial {$/;"	c
+CERROR_BREAK	lodepng.cpp	97;"	d	file:
+CERROR_RETURN	lodepng.cpp	121;"	d	file:
+CERROR_RETURN_ERROR	lodepng.cpp	107;"	d	file:
+CERROR_TRY_RETURN	lodepng.cpp	114;"	d	file:
+CLCL	lodepng_util.cpp	/^static const unsigned long CLCL[19] =$/;"	m	namespace:lodepng	file:
+CLCL_ORDER	lodepng.cpp	/^static const unsigned CLCL_ORDER[NUM_CODE_LENGTH_CODES]$/;"	v	file:
+CMD_ADD_TEMPLATE	oem.h	/^    CMD_ADD_TEMPLATE        = 0x71,$/;"	e	enum:__anon3
+CMD_CAPTURE	oem.h	/^    CMD_CAPTURE             = 0x60,$/;"	e	enum:__anon3
+CMD_CHANGE_BAUDRATE	oem.h	/^    CMD_CHANGE_BAUDRATE     = 0x04,$/;"	e	enum:__anon3
+CMD_CHECK_ENROLLED	oem.h	/^    CMD_CHECK_ENROLLED      = 0x21,$/;"	e	enum:__anon3
+CMD_CLOSE	oem.h	/^    CMD_CLOSE               = 0x02,$/;"	e	enum:__anon3
+CMD_CMOS_LED	oem.h	/^    CMD_CMOS_LED            = 0x12,$/;"	e	enum:__anon3
+CMD_DELETE	oem.h	/^    CMD_DELETE              = 0x40,$/;"	e	enum:__anon3
+CMD_DELETE_ALL	oem.h	/^    CMD_DELETE_ALL          = 0x41,$/;"	e	enum:__anon3
+CMD_ENROLL1	oem.h	/^    CMD_ENROLL1             = 0x23,$/;"	e	enum:__anon3
+CMD_ENROLL2	oem.h	/^    CMD_ENROLL2             = 0x24,$/;"	e	enum:__anon3
+CMD_ENROLL3	oem.h	/^    CMD_ENROLL3             = 0x25,$/;"	e	enum:__anon3
+CMD_ENROLL_COUNT	oem.h	/^    CMD_ENROLL_COUNT        = 0x20,$/;"	e	enum:__anon3
+CMD_ENROLL_START	oem.h	/^    CMD_ENROLL_START        = 0x22,$/;"	e	enum:__anon3
+CMD_FW_UPDATE	oem.h	/^    CMD_FW_UPDATE           = 0x80,$/;"	e	enum:__anon3
+CMD_GET_DATABASE_END	oem.h	/^    CMD_GET_DATABASE_END    = 0x73,$/;"	e	enum:__anon3
+CMD_GET_DATABASE_START	oem.h	/^    CMD_GET_DATABASE_START  = 0x72,$/;"	e	enum:__anon3
+CMD_GET_IMAGE	oem.h	/^    CMD_GET_IMAGE           = 0x62,$/;"	e	enum:__anon3
+CMD_GET_RAWIMAGE	oem.h	/^    CMD_GET_RAWIMAGE        = 0x63,$/;"	e	enum:__anon3
+CMD_GET_TEMPLATE	oem.h	/^    CMD_GET_TEMPLATE        = 0x70,$/;"	e	enum:__anon3
+CMD_IDENTIFY	oem.h	/^    CMD_IDENTIFY            = 0x51,$/;"	e	enum:__anon3
+CMD_IDENTIFY_TEMPLATE	oem.h	/^    CMD_IDENTIFY_TEMPLATE   = 0x53,$/;"	e	enum:__anon3
+CMD_ISO_UPDATE	oem.h	/^    CMD_ISO_UPDATE          = 0x81,$/;"	e	enum:__anon3
+CMD_IS_PRESS_FINGER	oem.h	/^    CMD_IS_PRESS_FINGER     = 0x26,$/;"	e	enum:__anon3
+CMD_NONE	oem.h	/^    CMD_NONE                = 0x00,$/;"	e	enum:__anon3
+CMD_OPEN	oem.h	/^    CMD_OPEN                = 0x01,$/;"	e	enum:__anon3
+CMD_USB_INTERNAL_CHECK	oem.h	/^    CMD_USB_INTERNAL_CHECK  = 0x03,$/;"	e	enum:__anon3
+CMD_VERIFY	oem.h	/^    CMD_VERIFY              = 0x50,$/;"	e	enum:__anon3
+CMD_VERIFY_TEMPLATE	oem.h	/^    CMD_VERIFY_TEMPLATE     = 0x52,$/;"	e	enum:__anon3
+COMM_BASE_H	commbase.h	2;"	d
+CONFIG_H	config.h	12;"	d
+Coin	lodepng.cpp	/^typedef struct Coin$/;"	s	file:
+Coin	lodepng.cpp	/^} Coin;$/;"	t	typeref:struct:Coin	file:
+ColorTree	lodepng.cpp	/^struct ColorTree$/;"	s	file:
+ColorTree	lodepng.cpp	/^typedef struct ColorTree ColorTree;$/;"	t	typeref:struct:ColorTree	file:
+Config	config.h	/^class Config {$/;"	c
+Controller	controller.cpp	/^Controller::Controller(CCommSerial *serial_port) :$/;"	f	class:Controller
+Controller	controller.h	/^class Controller {$/;"	c
+Controller	controllerJni.cpp	/^Controller::Controller(CCommSerial *serial_port) :$/;"	f	class:Controller
+Cport	rs232.c	/^HANDLE Cport[99];$/;"	v
+Cport	rs232.c	/^int Cport[99],$/;"	v
+DEFAULT_WINDOWSIZE	lodepng.cpp	2247;"	d	file:
+DEFINES	Makefile	/^DEFINES=\\$/;"	m
+DISTANCEBASE	lodepng.cpp	/^static const unsigned DISTANCEBASE[30]$/;"	v	file:
+DISTANCEEXTRA	lodepng.cpp	/^static const unsigned DISTANCEEXTRA[30]$/;"	v	file:
+DISTBASE	lodepng_util.cpp	/^static const unsigned long DISTBASE[30] =$/;"	m	namespace:lodepng	file:
+DISTEXTRA	lodepng_util.cpp	/^static const unsigned long DISTEXTRA[30] =$/;"	m	namespace:lodepng	file:
+DeviceSerialNumber	oem.h	/^    uchar DeviceSerialNumber[16];$/;"	m	struct:_devinfo
+EEPROM_SIZE	oem.h	101;"	d
+ERROR_BREAK	lodepng.cpp	104;"	d	file:
+EXTENSION_DATABASE	helper.h	19;"	d
+EXTENSION_IMAGE	helper.h	21;"	d
+EXTENSION_TEMPLATE	helper.h	20;"	d
+ExtractPNG	lodepng_util.cpp	/^  ExtractPNG(std::vector<ZlibBlockInfo>* info) : zlibinfo(info) {};$/;"	f	struct:lodepng::ExtractPNG
+ExtractPNG	lodepng_util.cpp	/^struct ExtractPNG \/\/PNG decoding and information extraction$/;"	s	namespace:lodepng	file:
+ExtractZlib	lodepng_util.cpp	/^  ExtractZlib(std::vector<ZlibBlockInfo>* info) : zlibinfo(info) {};$/;"	f	struct:lodepng::ExtractZlib
+ExtractZlib	lodepng_util.cpp	/^struct ExtractZlib \/\/ Zlib decompression and information extraction$/;"	s	namespace:lodepng	file:
+FF	main.cpp	16;"	d	file:
+FIRST_LENGTH_CODE_INDEX	lodepng.cpp	469;"	d	file:
+FP_MAX_USERS	oem.h	99;"	d
+FP_TEMPLATE_DB_SIZE	oem.h	102;"	d
+FP_TEMPLATE_SIZE	oem.h	100;"	d
+FirmwareVersion	oem.h	/^    uint FirmwareVersion;$/;"	m	struct:_devinfo
+GCC_HASCLASSVISIBILITY	controller_wrap.cpp	106;"	d	file:
+HANDLER_H	controller.h	12;"	d
+HASH_BIT_MASK	lodepng.cpp	/^static const unsigned HASH_BIT_MASK = 65535; \/*HASH_NUM_VALUES - 1, but C90 does not like that as initializer*\/$/;"	v	file:
+HASH_NUM_VALUES	lodepng.cpp	/^static const unsigned HASH_NUM_VALUES = 65536;$/;"	v	file:
+HEADERS	Makefile	/^HEADERS=\\$/;"	m
+HELPER_H	helper.h	12;"	d
+Hash	lodepng.cpp	/^typedef struct Hash$/;"	s	file:
+Hash	lodepng.cpp	/^} Hash;$/;"	t	typeref:struct:Hash	file:
+Head1	oemp.h	/^    uchar 	Head1;$/;"	m	struct:__anon6
+Head2	oemp.h	/^    uchar 	Head2;$/;"	m	struct:__anon6
+Helper	helper.cpp	/^Helper::Helper() :$/;"	f	class:Helper
+Helper	helper.h	/^class Helper {$/;"	c
+HuffmanTree	lodepng.cpp	/^typedef struct HuffmanTree$/;"	s	file:
+HuffmanTree	lodepng.cpp	/^} HuffmanTree;$/;"	t	typeref:struct:HuffmanTree	file:
+HuffmanTree	lodepng_util.cpp	/^  struct HuffmanTree$/;"	s	struct:lodepng::ExtractZlib	file:
+HuffmanTree_cleanup	lodepng.cpp	/^static void HuffmanTree_cleanup(HuffmanTree* tree)$/;"	f	file:
+HuffmanTree_getCode	lodepng.cpp	/^static unsigned HuffmanTree_getCode(const HuffmanTree* tree, unsigned index)$/;"	f	file:
+HuffmanTree_getLength	lodepng.cpp	/^static unsigned HuffmanTree_getLength(const HuffmanTree* tree, unsigned index)$/;"	f	file:
+HuffmanTree_init	lodepng.cpp	/^static void HuffmanTree_init(HuffmanTree* tree)$/;"	f	file:
+HuffmanTree_make2DTree	lodepng.cpp	/^static unsigned HuffmanTree_make2DTree(HuffmanTree* tree)$/;"	f	file:
+HuffmanTree_makeFromFrequencies	lodepng.cpp	/^static unsigned HuffmanTree_makeFromFrequencies(HuffmanTree* tree, const unsigned* frequencies,$/;"	f	file:
+HuffmanTree_makeFromLengths	lodepng.cpp	/^static unsigned HuffmanTree_makeFromLengths(HuffmanTree* tree, const unsigned* bitlen,$/;"	f	file:
+HuffmanTree_makeFromLengths2	lodepng.cpp	/^static unsigned HuffmanTree_makeFromLengths2(HuffmanTree* tree)$/;"	f	file:
+IMG8BIT_SIZE	oem.h	104;"	d
+INCLUDES	Makefile	/^INCLUDES=$/;"	m
+Image	lodepng_unittest.cpp	/^struct Image$/;"	s	file:
+Image256	helper.h	/^        Image256,$/;"	e	enum:Helper::ImageType
+Image320	helper.h	/^        Image320,$/;"	e	enum:Helper::ImageType
+ImageType	helper.h	/^    enum ImageType {$/;"	g	class:Helper
+IsoAreaMaxSize	oem.h	/^    uint IsoAreaMaxSize;$/;"	m	struct:_devinfo
+Java_org_swig_classexample_controllerJNI_ACK_1OK_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_ACK_1OK_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1ADD_1TEMPLATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1ADD_1TEMPLATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1CAPTURE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1CAPTURE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1CHANGE_1BAUDRATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1CHANGE_1BAUDRATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1CHECK_1ENROLLED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1CHECK_1ENROLLED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1CLOSE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1CLOSE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1CMOS_1LED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1CMOS_1LED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1DELETE_1ALL_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1DELETE_1ALL_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1DELETE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1DELETE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1ENROLL1_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1ENROLL1_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1ENROLL2_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1ENROLL2_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1ENROLL3_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1ENROLL3_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1ENROLL_1COUNT_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1ENROLL_1COUNT_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1ENROLL_1START_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1ENROLL_1START_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1FW_1UPDATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1FW_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1GET_1DATABASE_1END_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1GET_1DATABASE_1END_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1GET_1DATABASE_1START_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1GET_1DATABASE_1START_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1GET_1IMAGE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1GET_1IMAGE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1GET_1RAWIMAGE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1GET_1RAWIMAGE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1GET_1TEMPLATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1GET_1TEMPLATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1IDENTIFY_1TEMPLATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1IDENTIFY_1TEMPLATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1IDENTIFY_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1IDENTIFY_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1ISO_1UPDATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1ISO_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1IS_1PRESS_1FINGER_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1IS_1PRESS_1FINGER_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1NONE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1NONE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1OPEN_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1OPEN_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1USB_1INTERNAL_1CHECK_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1USB_1INTERNAL_1CHECK_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1VERIFY_1TEMPLATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1VERIFY_1TEMPLATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_CMD_1VERIFY_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_CMD_1VERIFY_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1action_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Config_1action_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1action_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Config_1action_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1baudrate_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Config_1baudrate_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1baudrate_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Config_1baudrate_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1filename_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Config_1filename_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1filename_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Config_1filename_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1id_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Config_1id_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1id_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Config_1id_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1port_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Config_1port_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Config_1port_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Config_1port_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1cancel	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1cancel(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1close	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1close(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1deleteAll	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1deleteAll(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1deleteId	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1deleteId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1enroll	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1enroll(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1getDatabase	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1getDatabase(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1getImage	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1getImage(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1getLiveImage	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1getLiveImage(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1getRawImage	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1getRawImage(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1getTemplate	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1getTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1getUserCount	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1getUserCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1identify	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1identify(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1identifyTemplate	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1identifyTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1isPressedFinger	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1isPressedFinger(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1open	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1open(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1saveImageToFile	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1saveImageToFile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1setDatabase	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1setDatabase(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1setTemplate	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1setTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1verify	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1verify(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1_1_1verifyTemplate	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1_1_1verifyTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Controller_1setup	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Controller_1setup(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {$/;"	f
+Java_org_swig_classexample_controllerJNI_EEPROM_1SIZE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_EEPROM_1SIZE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_FP_1MAX_1USERS_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_FP_1MAX_1USERS_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_FP_1TEMPLATE_1DB_1SIZE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_FP_1TEMPLATE_1DB_1SIZE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_FP_1TEMPLATE_1SIZE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_FP_1TEMPLATE_1SIZE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_IMG8BIT_1SIZE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_IMG8BIT_1SIZE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1BAD_1FINGER_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1BAD_1FINGER_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1CAPTURE_1CANCELED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1CAPTURE_1CANCELED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1COMM_1ERR_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1COMM_1ERR_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1DB_1IS_1EMPTY_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1DB_1IS_1EMPTY_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1DB_1IS_1FULL_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1DB_1IS_1FULL_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1DEV_1ERR_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1DEV_1ERR_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1ENROLL_1FAILED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1ENROLL_1FAILED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1FINGER_1IS_1NOT_1PRESSED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1FINGER_1IS_1NOT_1PRESSED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1IDENTIFY_1FAILED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1IDENTIFY_1FAILED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1INFO_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1INFO_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1INVALID_1BAUDRATE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1INVALID_1BAUDRATE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1INVALID_1PARAM_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1INVALID_1PARAM_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1INVALID_1POS_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1INVALID_1POS_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1IS_1ALREADY_1USED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1IS_1ALREADY_1USED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1IS_1NOT_1SUPPORTED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1IS_1NOT_1SUPPORTED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1IS_1NOT_1USED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1IS_1NOT_1USED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1NONE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1NONE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1TIMEOUT_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1TIMEOUT_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1TURN_1ERR_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1TURN_1ERR_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_NACK_1VERIFY_1FAILED_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_NACK_1VERIFY_1FAILED_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_OEM_1COMM_1ERR_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_OEM_1COMM_1ERR_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_OEM_1NONE_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_OEM_1NONE_1get(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1addTemplate	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1addTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1capture	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1capture(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1capturing	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1capturing(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2, jlong jarg3) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1changeBaudrate	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1changeBaudrate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1checkEnrolled	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1checkEnrolled(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1closeOem	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1closeOem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1closePort	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1closePort(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1cmosLed	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1cmosLed(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1deleteAll	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1deleteAll(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1deleteId	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1deleteId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1downloadingImage	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1downloadingImage(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1enrollCount	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1enrollCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1enrollNth	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1enrollNth(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1enrollStart	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1enrollStart(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1error	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Oem_1error(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gDevInfo_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gDevInfo_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gDevInfo_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gDevInfo_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyImg8bit_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyImg8bit_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyImg8bit_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyImg8bit_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyImgRaw_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyImgRaw_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyImgRaw_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyImgRaw_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplateDB_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplateDB_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplateDB_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplateDB_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplate_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplate_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplate_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gbyTemplate_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1getDatabaseEnd	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1getDatabaseEnd(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1getDatabaseStart	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1getDatabaseStart(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1getImage	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1getImage(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1getRawimage	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1getRawimage(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1getTemplate	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1getTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gwDevID_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gwDevID_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gwDevID_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gwDevID_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gwLastAckParam_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gwLastAckParam_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gwLastAckParam_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gwLastAckParam_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gwLastAck_1get	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gwLastAck_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1gwLastAck_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1gwLastAck_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1identify	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1identify(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1identifyTemplate	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1identifyTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1isPressFinger	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1isPressFinger(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1loadingImage	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1loadingImage(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1loadingImageLive	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1loadingImageLive(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1loadingImageRaw	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1loadingImageRaw(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1openOem	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1openOem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1openPort	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1openPort(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1setCallback	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_Oem_1setCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1usbInternalCheck	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1usbInternalCheck(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1verify	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1verify(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_Oem_1verifyTemplate	controller_wrap.cpp	/^SWIGEXPORT jint JNICALL Java_org_swig_classexample_controllerJNI_Oem_1verifyTemplate(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI__1devinfo_1DeviceSerialNumber_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI__1devinfo_1DeviceSerialNumber_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI__1devinfo_1DeviceSerialNumber_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI__1devinfo_1DeviceSerialNumber_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI__1devinfo_1FirmwareVersion_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI__1devinfo_1FirmwareVersion_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI__1devinfo_1FirmwareVersion_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI__1devinfo_1FirmwareVersion_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI__1devinfo_1IsoAreaMaxSize_1get	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI__1devinfo_1IsoAreaMaxSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI__1devinfo_1IsoAreaMaxSize_1set	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI__1devinfo_1IsoAreaMaxSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {$/;"	f
+Java_org_swig_classexample_controllerJNI_delete_1Config	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_delete_1Config(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_delete_1Controller	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_delete_1Controller(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_delete_1LedLocker	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_delete_1LedLocker(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_delete_1Oem	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_delete_1Oem(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_delete_1_1devinfo	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_delete_1_1devinfo(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_handlerUiPolling_1_1SWIG_10	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_handlerUiPolling_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_handlerUiPolling_1_1SWIG_11	controller_wrap.cpp	/^SWIGEXPORT void JNICALL Java_org_swig_classexample_controllerJNI_handlerUiPolling_1_1SWIG_11(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_new_1Config	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_new_1Config(JNIEnv *jenv, jclass jcls) {$/;"	f
+Java_org_swig_classexample_controllerJNI_new_1Controller	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_new_1Controller(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_new_1LedLocker	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_new_1LedLocker(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {$/;"	f
+Java_org_swig_classexample_controllerJNI_new_1Oem	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_new_1Oem(JNIEnv *jenv, jclass jcls, jlong jarg1) {$/;"	f
+Java_org_swig_classexample_controllerJNI_new_1_1devinfo	controller_wrap.cpp	/^SWIGEXPORT jlong JNICALL Java_org_swig_classexample_controllerJNI_new_1_1devinfo(JNIEnv *jenv, jclass jcls) {$/;"	f
+LAST_LENGTH_CODE_INDEX	lodepng.cpp	470;"	d	file:
+LCT_GREY	lodepng.h	/^  LCT_GREY = 0, \/*greyscale: 1,2,4,8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_GREY_ALPHA	lodepng.h	/^  LCT_GREY_ALPHA = 4, \/*greyscale with alpha: 8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_PALETTE	lodepng.h	/^  LCT_PALETTE = 3, \/*palette: 1,2,4,8 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_RGB	lodepng.h	/^  LCT_RGB = 2, \/*RGB: 8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_RGBA	lodepng.h	/^  LCT_RGBA = 6 \/*RGB with alpha: 8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LENBASE	lodepng_util.cpp	/^static const unsigned long LENBASE[29] =$/;"	m	namespace:lodepng	file:
+LENEXTRA	lodepng_util.cpp	/^static const unsigned long LENEXTRA[29] =$/;"	m	namespace:lodepng	file:
+LENGTHBASE	lodepng.cpp	/^static const unsigned LENGTHBASE[29]$/;"	v	file:
+LENGTHEXTRA	lodepng.cpp	/^static const unsigned LENGTHEXTRA[29]$/;"	v	file:
+LFS_BRUTE_FORCE	lodepng.h	/^  LFS_BRUTE_FORCE,$/;"	e	enum:LodePNGFilterStrategy
+LFS_ENTROPY	lodepng.h	/^  LFS_ENTROPY,$/;"	e	enum:LodePNGFilterStrategy
+LFS_MINSUM	lodepng.h	/^  LFS_MINSUM,$/;"	e	enum:LodePNGFilterStrategy
+LFS_PREDEFINED	lodepng.h	/^  LFS_PREDEFINED$/;"	e	enum:LodePNGFilterStrategy
+LFS_ZERO	lodepng.h	/^  LFS_ZERO,$/;"	e	enum:LodePNGFilterStrategy
+LODEPNG_COMPILE_ALLOCATORS	lodepng.h	78;"	d
+LODEPNG_COMPILE_ANCILLARY_CHUNKS	lodepng.h	68;"	d
+LODEPNG_COMPILE_CPP	lodepng.h	83;"	d
+LODEPNG_COMPILE_DECODER	lodepng.h	56;"	d
+LODEPNG_COMPILE_DISK	lodepng.h	64;"	d
+LODEPNG_COMPILE_ENCODER	lodepng.h	60;"	d
+LODEPNG_COMPILE_ERROR_TEXT	lodepng.h	72;"	d
+LODEPNG_COMPILE_PNG	lodepng.h	52;"	d
+LODEPNG_COMPILE_ZLIB	lodepng.h	48;"	d
+LODEPNG_H	lodepng.h	27;"	d
+LODEPNG_VERSION_STRING	lodepng.h	36;"	d
+LedLocker	controller.cpp	/^LedLocker::LedLocker(Oem *_oem) {$/;"	f	class:LedLocker
+LedLocker	controller.h	/^class LedLocker {$/;"	c
+LedLocker	controllerJni.cpp	/^LedLocker::LedLocker(Oem *_oem) {$/;"	f	class:LedLocker
+LodePNGColorMode	lodepng.h	/^typedef struct LodePNGColorMode$/;"	s
+LodePNGColorMode	lodepng.h	/^} LodePNGColorMode;$/;"	t	typeref:struct:LodePNGColorMode
+LodePNGColorProfile	lodepng.h	/^typedef struct LodePNGColorProfile$/;"	s
+LodePNGColorProfile	lodepng.h	/^} LodePNGColorProfile;$/;"	t	typeref:struct:LodePNGColorProfile
+LodePNGColorType	lodepng.h	/^typedef enum LodePNGColorType$/;"	g
+LodePNGColorType	lodepng.h	/^} LodePNGColorType;$/;"	t	typeref:enum:LodePNGColorType
+LodePNGCompressSettings	lodepng.h	/^struct LodePNGCompressSettings \/*deflate = compress*\/$/;"	s
+LodePNGCompressSettings	lodepng.h	/^typedef struct LodePNGCompressSettings LodePNGCompressSettings;$/;"	t	typeref:struct:LodePNGCompressSettings
+LodePNGDecoderSettings	lodepng.h	/^typedef struct LodePNGDecoderSettings$/;"	s
+LodePNGDecoderSettings	lodepng.h	/^} LodePNGDecoderSettings;$/;"	t	typeref:struct:LodePNGDecoderSettings
+LodePNGDecompressSettings	lodepng.h	/^struct LodePNGDecompressSettings$/;"	s
+LodePNGDecompressSettings	lodepng.h	/^typedef struct LodePNGDecompressSettings LodePNGDecompressSettings;$/;"	t	typeref:struct:LodePNGDecompressSettings
+LodePNGEncoderSettings	lodepng.h	/^typedef struct LodePNGEncoderSettings$/;"	s
+LodePNGEncoderSettings	lodepng.h	/^} LodePNGEncoderSettings;$/;"	t	typeref:struct:LodePNGEncoderSettings
+LodePNGFilterStrategy	lodepng.h	/^typedef enum LodePNGFilterStrategy$/;"	g
+LodePNGFilterStrategy	lodepng.h	/^} LodePNGFilterStrategy;$/;"	t	typeref:enum:LodePNGFilterStrategy
+LodePNGIText_cleanup	lodepng.cpp	/^static void LodePNGIText_cleanup(LodePNGInfo* info)$/;"	f	file:
+LodePNGIText_copy	lodepng.cpp	/^static unsigned LodePNGIText_copy(LodePNGInfo* dest, const LodePNGInfo* source)$/;"	f	file:
+LodePNGIText_init	lodepng.cpp	/^static void LodePNGIText_init(LodePNGInfo* info)$/;"	f	file:
+LodePNGInfo	lodepng.h	/^typedef struct LodePNGInfo$/;"	s
+LodePNGInfo	lodepng.h	/^} LodePNGInfo;$/;"	t	typeref:struct:LodePNGInfo
+LodePNGState	lodepng.h	/^typedef struct LodePNGState$/;"	s
+LodePNGState	lodepng.h	/^} LodePNGState;$/;"	t	typeref:struct:LodePNGState
+LodePNGText_cleanup	lodepng.cpp	/^static void LodePNGText_cleanup(LodePNGInfo* info)$/;"	f	file:
+LodePNGText_copy	lodepng.cpp	/^static unsigned LodePNGText_copy(LodePNGInfo* dest, const LodePNGInfo* source)$/;"	f	file:
+LodePNGText_init	lodepng.cpp	/^static void LodePNGText_init(LodePNGInfo* info)$/;"	f	file:
+LodePNGTime	lodepng.h	/^typedef struct LodePNGTime$/;"	s
+LodePNGTime	lodepng.h	/^} LodePNGTime;$/;"	t	typeref:struct:LodePNGTime
+LodePNGUnknownChunks_cleanup	lodepng.cpp	/^static void LodePNGUnknownChunks_cleanup(LodePNGInfo* info)$/;"	f	file:
+LodePNGUnknownChunks_copy	lodepng.cpp	/^static unsigned LodePNGUnknownChunks_copy(LodePNGInfo* dest, const LodePNGInfo* src)$/;"	f	file:
+LodePNGUnknownChunks_init	lodepng.cpp	/^static void LodePNGUnknownChunks_init(LodePNGInfo* info)$/;"	f	file:
+MAX_SUPPORTED_DEFLATE_LENGTH	lodepng.cpp	/^static const size_t MAX_SUPPORTED_DEFLATE_LENGTH = 258;$/;"	v	file:
+NACK_BAD_FINGER	oem.h	/^        NACK_BAD_FINGER,$/;"	e	enum:__anon4
+NACK_CAPTURE_CANCELED	oem.h	/^        NACK_CAPTURE_CANCELED,$/;"	e	enum:__anon4
+NACK_COMM_ERR	oem.h	/^        NACK_COMM_ERR,$/;"	e	enum:__anon4
+NACK_DB_IS_EMPTY	oem.h	/^        NACK_DB_IS_EMPTY,$/;"	e	enum:__anon4
+NACK_DB_IS_FULL	oem.h	/^        NACK_DB_IS_FULL,$/;"	e	enum:__anon4
+NACK_DEV_ERR	oem.h	/^        NACK_DEV_ERR,$/;"	e	enum:__anon4
+NACK_ENROLL_FAILED	oem.h	/^        NACK_ENROLL_FAILED,$/;"	e	enum:__anon4
+NACK_FINGER_IS_NOT_PRESSED	oem.h	/^        NACK_FINGER_IS_NOT_PRESSED,$/;"	e	enum:__anon4
+NACK_IDENTIFY_FAILED	oem.h	/^        NACK_IDENTIFY_FAILED,$/;"	e	enum:__anon4
+NACK_INFO	oem.h	/^    NACK_INFO               = 0x31,$/;"	e	enum:__anon3
+NACK_INVALID_BAUDRATE	oem.h	/^        NACK_INVALID_BAUDRATE,$/;"	e	enum:__anon4
+NACK_INVALID_PARAM	oem.h	/^        NACK_INVALID_PARAM,$/;"	e	enum:__anon4
+NACK_INVALID_POS	oem.h	/^        NACK_INVALID_POS,$/;"	e	enum:__anon4
+NACK_IS_ALREADY_USED	oem.h	/^        NACK_IS_ALREADY_USED,$/;"	e	enum:__anon4
+NACK_IS_NOT_SUPPORTED	oem.h	/^        NACK_IS_NOT_SUPPORTED,$/;"	e	enum:__anon4
+NACK_IS_NOT_USED	oem.h	/^        NACK_IS_NOT_USED,$/;"	e	enum:__anon4
+NACK_NONE	oem.h	/^        NACK_NONE                = 0x1000,$/;"	e	enum:__anon4
+NACK_TIMEOUT	oem.h	/^        NACK_TIMEOUT,$/;"	e	enum:__anon4
+NACK_TURN_ERR	oem.h	/^        NACK_TURN_ERR,$/;"	e	enum:__anon4
+NACK_VERIFY_FAILED	oem.h	/^        NACK_VERIFY_FAILED,$/;"	e	enum:__anon4
+NUM_CODE_LENGTH_CODES	lodepng.cpp	476;"	d	file:
+NUM_DEFLATE_CODE_SYMBOLS	lodepng.cpp	472;"	d	file:
+NUM_DISTANCE_SYMBOLS	lodepng.cpp	474;"	d	file:
+None	helper.h	/^        None$/;"	e	enum:Helper::ImageType
+OEMP_H	oemp.h	2;"	d
+OEM_COMM_ERR	oem.h	/^        OEM_COMM_ERR,$/;"	e	enum:__anon5
+OEM_H	oem.h	2;"	d
+OEM_NONE	oem.h	/^        OEM_NONE                    = -2000,$/;"	e	enum:__anon5
+Oem	oem.cpp	/^Oem::Oem(CCommSerial *serial_port) :$/;"	f	class:Oem
+Oem	oem.h	/^class Oem {$/;"	c
+Oemp	oemp.cpp	/^Oemp::Oemp(CCommSerial *_serial_port) :$/;"	f	class:Oemp
+Oemp	oemp.h	/^class Oemp {$/;"	c
+Options	pngdetail.cpp	/^  Options() : show_png_summary(false), show_png_info(false), show_extra_png_info(false),$/;"	f	struct:Options
+Options	pngdetail.cpp	/^struct Options$/;"	s	file:
+PKT_CHK_SUM_ERR	oemp.h	40;"	d
+PKT_COMM_ERR	oemp.h	37;"	d
+PKT_DEV_ID_ERR	oemp.h	39;"	d
+PKT_ERR_START	oemp.h	36;"	d
+PKT_HDR_ERR	oemp.h	38;"	d
+PKT_PARAM_ERR	oemp.h	41;"	d
+READBIT	lodepng.cpp	444;"	d	file:
+RS232_COMM_SERIAL_H	commbase_rs232.h	14;"	d
+RS232_CloseComport	rs232.c	/^void RS232_CloseComport(int comport_number)$/;"	f
+RS232_IsCTSEnabled	rs232.c	/^int RS232_IsCTSEnabled(int comport_number)$/;"	f
+RS232_IsDCDEnabled	rs232.c	/^int RS232_IsDCDEnabled(int comport_number)$/;"	f
+RS232_IsDSREnabled	rs232.c	/^int RS232_IsDSREnabled(int comport_number)$/;"	f
+RS232_OpenComport	rs232.c	/^int RS232_OpenComport(const char *_comport_name, int comport_number, int baudrate, const char *mode)$/;"	f
+RS232_OpenComport	rs232.c	/^int RS232_OpenComport(const char *port_name, int comport_number, int baudrate, const char *mode)$/;"	f
+RS232_PollComport	rs232.c	/^int RS232_PollComport(int comport_number, unsigned char *buf, int size)$/;"	f
+RS232_SendBuf	rs232.c	/^int RS232_SendBuf(int comport_number, unsigned char *buf, int size)$/;"	f
+RS232_SendByte	rs232.c	/^int RS232_SendByte(int comport_number, unsigned char byte)$/;"	f
+RS232_cputs	rs232.c	/^void RS232_cputs(int comport_number, const char *text)  \/* sends a string to serial port *\/$/;"	f
+RS232_disableDTR	rs232.c	/^void RS232_disableDTR(int comport_number)$/;"	f
+RS232_disableRTS	rs232.c	/^void RS232_disableRTS(int comport_number)$/;"	f
+RS232_enableDTR	rs232.c	/^void RS232_enableDTR(int comport_number)$/;"	f
+RS232_enableRTS	rs232.c	/^void RS232_enableRTS(int comport_number)$/;"	f
+Rs232CommSerial	commbase_rs232.cpp	/^Rs232CommSerial::Rs232CommSerial() :$/;"	f	class:Rs232CommSerial
+Rs232CommSerial	commbase_rs232.h	/^class Rs232CommSerial : public CCommSerial {$/;"	c
+SB_OEM_CHK_SUM_SIZE	oemp.h	34;"	d
+SB_OEM_DEV_ID_SIZE	oemp.h	33;"	d
+SB_OEM_HEADER_SIZE	oemp.h	32;"	d
+SB_OEM_PKT	oemp.h	/^SB_OEM_PKT;$/;"	t	typeref:struct:__anon6
+SB_OEM_PKT_SIZE	oemp.h	30;"	d
+SINGLETON_PORT_ID	commbase_rs232.h	26;"	d
+SOURCES	Makefile	/^SOURCES=\\$/;"	m
+STR	lodepng_unittest.cpp	155;"	d	file:
+STR_EXPAND	lodepng_unittest.cpp	154;"	d	file:
+STX1	oemp.h	10;"	d
+STX2	oemp.h	11;"	d
+STX3	oemp.h	14;"	d
+STX4	oemp.h	15;"	d
+SWIGEXPORT	controller_wrap.cpp	113;"	d	file:
+SWIGEXPORT	controller_wrap.cpp	115;"	d	file:
+SWIGEXPORT	controller_wrap.cpp	119;"	d	file:
+SWIGEXPORT	controller_wrap.cpp	121;"	d	file:
+SWIGINLINE	controller_wrap.cpp	58;"	d	file:
+SWIGINLINE	controller_wrap.cpp	60;"	d	file:
+SWIGINTERN	controller_wrap.cpp	95;"	d	file:
+SWIGINTERNINLINE	controller_wrap.cpp	100;"	d	file:
+SWIGJAVA	controller_wrap.cpp	11;"	d	file:
+SWIGSTDCALL	controller_wrap.cpp	129;"	d	file:
+SWIGSTDCALL	controller_wrap.cpp	131;"	d	file:
+SWIGTEMPLATEDISAMBIGUATOR	controller_wrap.cpp	45;"	d	file:
+SWIGTEMPLATEDISAMBIGUATOR	controller_wrap.cpp	49;"	d	file:
+SWIGTEMPLATEDISAMBIGUATOR	controller_wrap.cpp	51;"	d	file:
+SWIGUNUSED	controller_wrap.cpp	68;"	d	file:
+SWIGUNUSED	controller_wrap.cpp	70;"	d	file:
+SWIGUNUSED	controller_wrap.cpp	73;"	d	file:
+SWIGUNUSED	controller_wrap.cpp	75;"	d	file:
+SWIGUNUSEDPARM	controller_wrap.cpp	87;"	d	file:
+SWIGUNUSEDPARM	controller_wrap.cpp	89;"	d	file:
+SWIG_JavaArithmeticException	controller_wrap.cpp	/^  SWIG_JavaArithmeticException,$/;"	e	enum:__anon1	file:
+SWIG_JavaDirectorPureVirtual	controller_wrap.cpp	/^  SWIG_JavaDirectorPureVirtual,$/;"	e	enum:__anon1	file:
+SWIG_JavaExceptionCodes	controller_wrap.cpp	/^} SWIG_JavaExceptionCodes;$/;"	t	typeref:enum:__anon1	file:
+SWIG_JavaExceptions_t	controller_wrap.cpp	/^} SWIG_JavaExceptions_t;$/;"	t	typeref:struct:__anon2	file:
+SWIG_JavaIOException	controller_wrap.cpp	/^  SWIG_JavaIOException, $/;"	e	enum:__anon1	file:
+SWIG_JavaIllegalArgumentException	controller_wrap.cpp	/^  SWIG_JavaIllegalArgumentException,$/;"	e	enum:__anon1	file:
+SWIG_JavaIndexOutOfBoundsException	controller_wrap.cpp	/^  SWIG_JavaIndexOutOfBoundsException,$/;"	e	enum:__anon1	file:
+SWIG_JavaNullPointerException	controller_wrap.cpp	/^  SWIG_JavaNullPointerException,$/;"	e	enum:__anon1	file:
+SWIG_JavaOutOfMemoryError	controller_wrap.cpp	/^  SWIG_JavaOutOfMemoryError = 1, $/;"	e	enum:__anon1	file:
+SWIG_JavaRuntimeException	controller_wrap.cpp	/^  SWIG_JavaRuntimeException, $/;"	e	enum:__anon1	file:
+SWIG_JavaThrowException	controller_wrap.cpp	/^static void SWIGUNUSED SWIG_JavaThrowException(JNIEnv *jenv, SWIG_JavaExceptionCodes code, const char *msg) {$/;"	f	file:
+SWIG_JavaUnknownError	controller_wrap.cpp	/^  SWIG_JavaUnknownError$/;"	e	enum:__anon1	file:
+SWIG_contract_assert	controller_wrap.cpp	211;"	d	file:
+State	lodepng.cpp	/^State::State()$/;"	f	class:lodepng::State
+State	lodepng.cpp	/^State::State(const State& other)$/;"	f	class:lodepng::State
+State	lodepng.h	/^class State : public LodePNGState$/;"	c	namespace:lodepng
+SwigMovePointer	controller_wrap.cpp	/^    SwigMovePointer(T *p) : ptr(p) { }$/;"	f	struct:SwigValueWrapper::SwigMovePointer
+SwigMovePointer	controller_wrap.cpp	/^  struct SwigMovePointer {$/;"	s	class:SwigValueWrapper	file:
+SwigValueInit	controller_wrap.cpp	/^template <typename T> T SwigValueInit() {$/;"	f
+SwigValueWrapper	controller_wrap.cpp	/^  SwigValueWrapper() : pointer(0) { }$/;"	f	class:SwigValueWrapper
+SwigValueWrapper	controller_wrap.cpp	/^template<typename T> class SwigValueWrapper {$/;"	c	file:
+UTILS_H	utils.h	12;"	d
+Utils	utils.h	/^class Utils {$/;"	c
+ZlibBlockInfo	lodepng_util.h	/^struct ZlibBlockInfo$/;"	s	namespace:lodepng
+_CRT_SECURE_NO_DEPRECATE	controller_wrap.cpp	137;"	d	file:
+_LP64	controller_wrap.cpp	155;"	d	file:
+_SCL_SECURE_NO_DEPRECATE	controller_wrap.cpp	142;"	d	file:
+__cancel	controller.cpp	/^void Controller::__cancel() {$/;"	f	class:Controller
+__cancel	controllerJni.cpp	/^void Controller::__cancel() {$/;"	f	class:Controller
+__close	controller.cpp	/^void Controller::__close() {$/;"	f	class:Controller
+__close	controllerJni.cpp	/^void Controller::__close() {$/;"	f	class:Controller
+__deleteAll	controller.cpp	/^void Controller::__deleteAll() {$/;"	f	class:Controller
+__deleteAll	controllerJni.cpp	/^void Controller::__deleteAll() {$/;"	f	class:Controller
+__deleteId	controller.cpp	/^void Controller::__deleteId() {$/;"	f	class:Controller
+__deleteId	controllerJni.cpp	/^void Controller::__deleteId() {$/;"	f	class:Controller
+__enroll	controller.cpp	/^void Controller::__enroll() {$/;"	f	class:Controller
+__enroll	controllerJni.cpp	/^void Controller::__enroll() {$/;"	f	class:Controller
+__getDatabase	controller.cpp	/^void Controller::__getDatabase() {$/;"	f	class:Controller
+__getDatabase	controllerJni.cpp	/^void Controller::__getDatabase() {$/;"	f	class:Controller
+__getImage	controller.cpp	/^void Controller::__getImage() {$/;"	f	class:Controller
+__getImage	controllerJni.cpp	/^void Controller::__getImage() {$/;"	f	class:Controller
+__getLiveImage	controller.cpp	/^void Controller::__getLiveImage() {$/;"	f	class:Controller
+__getLiveImage	controllerJni.cpp	/^void Controller::__getLiveImage() {$/;"	f	class:Controller
+__getRawImage	controller.cpp	/^void Controller::__getRawImage() {$/;"	f	class:Controller
+__getRawImage	controllerJni.cpp	/^void Controller::__getRawImage() {$/;"	f	class:Controller
+__getTemplate	controller.cpp	/^void Controller::__getTemplate() {$/;"	f	class:Controller
+__getTemplate	controllerJni.cpp	/^void Controller::__getTemplate() {$/;"	f	class:Controller
+__getUserCount	controller.cpp	/^void Controller::__getUserCount() {$/;"	f	class:Controller
+__getUserCount	controllerJni.cpp	/^void Controller::__getUserCount() {$/;"	f	class:Controller
+__identify	controller.cpp	/^void Controller::__identify() {$/;"	f	class:Controller
+__identify	controllerJni.cpp	/^void Controller::__identify() {$/;"	f	class:Controller
+__identifyTemplate	controller.cpp	/^void Controller::__identifyTemplate() {$/;"	f	class:Controller
+__identifyTemplate	controllerJni.cpp	/^void Controller::__identifyTemplate() {$/;"	f	class:Controller
+__int64	controller_wrap.cpp	/^  typedef long long __int64;$/;"	t	file:
+__isPressedFinger	controller.cpp	/^void Controller::__isPressedFinger() {$/;"	f	class:Controller
+__isPressedFinger	controllerJni.cpp	/^void Controller::__isPressedFinger() {$/;"	f	class:Controller
+__open	controller.cpp	/^void Controller::__open() {$/;"	f	class:Controller
+__open	controllerJni.cpp	/^void Controller::__open() {$/;"	f	class:Controller
+__saveImageToFile	controller.cpp	/^void Controller::__saveImageToFile() {$/;"	f	class:Controller
+__saveImageToFile	controllerJni.cpp	/^void Controller::__saveImageToFile() {$/;"	f	class:Controller
+__setDatabase	controller.cpp	/^void Controller::__setDatabase() {$/;"	f	class:Controller
+__setDatabase	controllerJni.cpp	/^void Controller::__setDatabase() {$/;"	f	class:Controller
+__setTemplate	controller.cpp	/^void Controller::__setTemplate() {$/;"	f	class:Controller
+__setTemplate	controllerJni.cpp	/^void Controller::__setTemplate() {$/;"	f	class:Controller
+__verify	controller.cpp	/^void Controller::__verify() {$/;"	f	class:Controller
+__verify	controllerJni.cpp	/^void Controller::__verify() {$/;"	f	class:Controller
+__verifyTemplate	controller.cpp	/^void Controller::__verifyTemplate() {$/;"	f	class:Controller
+__verifyTemplate	controllerJni.cpp	/^void Controller::__verifyTemplate() {$/;"	f	class:Controller
+_devinfo	oem.h	/^typedef struct _devinfo {$/;"	s
+action	config.h	/^    uint action;$/;"	m	class:Config
+addBitToStream	lodepng.cpp	420;"	d	file:
+addBitsToStream	lodepng.cpp	/^static void addBitsToStream(size_t* bitpointer, ucvector* bitstream, unsigned value, size_t nbits)$/;"	f	file:
+addBitsToStreamReversed	lodepng.cpp	/^static void addBitsToStreamReversed(size_t* bitpointer, ucvector* bitstream, unsigned value, size_t nbits)$/;"	f	file:
+addChunk	lodepng.cpp	/^static unsigned addChunk(ucvector* out, const char* chunkName, const unsigned char* data, size_t length)$/;"	f	file:
+addChunk_IDAT	lodepng.cpp	/^static unsigned addChunk_IDAT(ucvector* out, const unsigned char* data, size_t datasize,$/;"	f	file:
+addChunk_IEND	lodepng.cpp	/^static unsigned addChunk_IEND(ucvector* out)$/;"	f	file:
+addChunk_IHDR	lodepng.cpp	/^static unsigned addChunk_IHDR(ucvector* out, unsigned w, unsigned h,$/;"	f	file:
+addChunk_PLTE	lodepng.cpp	/^static unsigned addChunk_PLTE(ucvector* out, const LodePNGColorMode* info)$/;"	f	file:
+addChunk_bKGD	lodepng.cpp	/^static unsigned addChunk_bKGD(ucvector* out, const LodePNGInfo* info)$/;"	f	file:
+addChunk_iTXt	lodepng.cpp	/^static unsigned addChunk_iTXt(ucvector* out, unsigned compressed, const char* keyword, const char* langtag,$/;"	f	file:
+addChunk_pHYs	lodepng.cpp	/^static unsigned addChunk_pHYs(ucvector* out, const LodePNGInfo* info)$/;"	f	file:
+addChunk_tEXt	lodepng.cpp	/^static unsigned addChunk_tEXt(ucvector* out, const char* keyword, const char* textstring)$/;"	f	file:
+addChunk_tIME	lodepng.cpp	/^static unsigned addChunk_tIME(ucvector* out, const LodePNGTime* time)$/;"	f	file:
+addChunk_tRNS	lodepng.cpp	/^static unsigned addChunk_tRNS(ucvector* out, const LodePNGColorMode* info)$/;"	f	file:
+addChunk_zTXt	lodepng.cpp	/^static unsigned addChunk_zTXt(ucvector* out, const char* keyword, const char* textstring,$/;"	f	file:
+addColor	lodepng_unittest.cpp	/^void addColor(std::vector<unsigned char>& colors, unsigned char r, unsigned char g, unsigned char b, unsigned char a)$/;"	f
+addColor16	lodepng_unittest.cpp	/^void addColor16(std::vector<unsigned char>& colors, unsigned short r, unsigned short g, unsigned short b, unsigned short a)$/;"	f
+addColorBits	lodepng.cpp	/^static void addColorBits(unsigned char* out, size_t index, unsigned bits, unsigned in)$/;"	f	file:
+addHuffmanSymbol	lodepng.cpp	/^static void addHuffmanSymbol(size_t* bp, ucvector* compressed, unsigned code, unsigned bitlen)$/;"	f	file:
+addLengthDistance	lodepng.cpp	/^static void addLengthDistance(uivector* values, size_t length, size_t distance)$/;"	f	file:
+addPaddingBits	lodepng.cpp	/^static void addPaddingBits(unsigned char* out, const unsigned char* in,$/;"	f	file:
+addTemplate	oem.cpp	/^int Oem::addTemplate(int nPos) {$/;"	f	class:Oem
+addUnknownChunks	lodepng.cpp	/^static unsigned addUnknownChunks(ucvector* out, unsigned char* data, size_t datasize)$/;"	f	file:
+add_coins	lodepng.cpp	/^static void add_coins(Coin* c1, const Coin* c2)$/;"	f	file:
+add_id	lodepng.h	/^  unsigned add_id;$/;"	m	struct:LodePNGEncoderSettings
+adler32	lodepng.cpp	/^static unsigned adler32(const unsigned char* data, unsigned len)$/;"	f	file:
+allocsize	lodepng.cpp	/^  size_t allocsize; \/*allocated size in bytes*\/$/;"	m	struct:uivector	file:
+allocsize	lodepng.cpp	/^  size_t allocsize; \/*allocated size*\/$/;"	m	struct:ucvector	file:
+alpha	lodepng.h	/^  unsigned alpha; \/*alpha channel or alpha palette required*\/$/;"	m	struct:LodePNGColorProfile
+append_symbol_coins	lodepng.cpp	/^static unsigned append_symbol_coins(Coin* coins, const unsigned* frequencies, unsigned numcodes, size_t sum)$/;"	f	file:
+ascii_art_size	pngdetail.cpp	/^  int ascii_art_size;$/;"	m	struct:Options	file:
+assertEquals	lodepng_unittest.cpp	/^void assertEquals(const T& expected, const U& actual, const std::string& message = "")$/;"	f
+assertNoError	lodepng_unittest.cpp	/^void assertNoError(unsigned error)$/;"	f
+assertNoPNGError	lodepng_unittest.cpp	/^void assertNoPNGError(unsigned error, const std::string& message = "")$/;"	f
+assertPixels	lodepng_unittest.cpp	/^void assertPixels(Image& image, const unsigned char* decoded, const std::string& message)$/;"	f
+assertTrue	lodepng_unittest.cpp	/^void assertTrue(bool value, const std::string& message = "")$/;"	f
+auto_convert	lodepng.h	/^  unsigned auto_convert; \/*automatically choose output PNG color type. Default: true*\/$/;"	m	struct:LodePNGEncoderSettings
+bContinue	controller.h	/^    bool bContinue;$/;"	m	class:Controller
+background_b	lodepng.h	/^  unsigned background_b;       \/*blue component of suggested background color*\/$/;"	m	struct:LodePNGInfo
+background_defined	lodepng.h	/^  unsigned background_defined; \/*is a suggested background color given?*\/$/;"	m	struct:LodePNGInfo
+background_g	lodepng.h	/^  unsigned background_g;       \/*green component of suggested background color*\/$/;"	m	struct:LodePNGInfo
+background_r	lodepng.h	/^  unsigned background_r;       \/*red component of suggested background color*\/$/;"	m	struct:LodePNGInfo
+baudrate	config.h	/^    uint baudrate;$/;"	m	class:Config
+bitDepth	lodepng_unittest.cpp	/^  unsigned bitDepth;$/;"	m	struct:Image	file:
+bitStringToBytes	lodepng_unittest.cpp	/^void bitStringToBytes(std::vector<unsigned char>& bytes, const std::string& bits_)$/;"	f
+bitdepth	lodepng.h	/^  unsigned bitdepth;  \/*bits per sample, see PNG standard or documentation further in this header file*\/$/;"	m	struct:LodePNGColorMode
+bits	lodepng.h	/^  unsigned bits; \/*bits per channel (not for palette). 1,2 or 4 for greyscale only. 16 if 16-bit per channel required.*\/$/;"	m	struct:LodePNGColorProfile
+btype	lodepng.h	/^  unsigned btype; \/*the block type for LZ (0, 1, 2 or 3, see zlib standard). Should be 2 for proper compression.*\/$/;"	m	struct:LodePNGCompressSettings
+btype	lodepng_util.h	/^  int btype; \/\/block type (0-2)$/;"	m	struct:lodepng::ZlibBlockInfo
+calcChkSumOfCmdAckPkt	oemp.cpp	/^ushort Oemp::calcChkSumOfCmdAckPkt(SB_OEM_PKT* pPkt) {$/;"	f	class:Oemp
+calcChkSumOfDataPkt	oemp.cpp	/^ushort Oemp::calcChkSumOfDataPkt(uchar* pDataPkt, int nSize) {$/;"	f	class:Oemp
+capture	oem.cpp	/^int Oem::capture(bool bBest) {$/;"	f	class:Oem
+capturing	oem.cpp	/^int Oem::capturing(bool best, std::string &err) {$/;"	f	class:Oem
+chain	lodepng.cpp	/^  unsigned short* chain;$/;"	m	struct:Hash	file:
+chainz	lodepng.cpp	/^  unsigned short* chainz; \/*those with same amount of zeros*\/$/;"	m	struct:Hash	file:
+changeBaudrate	oem.cpp	/^int Oem::changeBaudrate(int nBaudrate) {$/;"	f	class:Oem
+checkCmdAckPkt	oemp.cpp	/^int Oemp::checkCmdAckPkt(ushort wDevID, SB_OEM_PKT* pPkt) {$/;"	f	class:Oemp
+checkColorValidity	lodepng.cpp	/^static unsigned checkColorValidity(LodePNGColorType colortype, unsigned bd) \/*bd = bitdepth*\/$/;"	f	file:
+checkEnrolled	oem.cpp	/^int Oem::checkEnrolled(int nPos) {$/;"	f	class:Oem
+children	lodepng.cpp	/^  ColorTree* children[16]; \/*up to 16 pointers to ColorTree of next level*\/$/;"	m	struct:ColorTree	file:
+clcl	lodepng_util.h	/^  std::vector<int> clcl; \/\/19 code length code lengths (compressed tree's tree)$/;"	m	struct:lodepng::ZlibBlockInfo
+cleanup_coins	lodepng.cpp	/^static void cleanup_coins(Coin* coins, size_t num)$/;"	f	file:
+close	commbase_rs232.cpp	/^bool Rs232CommSerial::close() {$/;"	f	class:Rs232CommSerial
+close	oemp.cpp	/^int Oemp::close() {$/;"	f	class:Oemp
+closeOem	oem.cpp	/^int Oem::closeOem() {$/;"	f	class:Oem
+closePort	oem.cpp	/^int Oem::closePort() {$/;"	f	class:Oem
+cmosLed	oem.cpp	/^int Oem::cmosLed(bool bOn) {$/;"	f	class:Oem
+code	controller_wrap.cpp	/^  SWIG_JavaExceptionCodes code;$/;"	m	struct:__anon2	file:
+codecTest	lodepng_unittest.cpp	/^void codecTest(unsigned width, unsigned height, LodePNGColorType colorType = LCT_RGBA, unsigned bitDepth = 8)$/;"	f
+codelengthcodetree	lodepng_util.cpp	/^  HuffmanTree codetree, codetreeD, codelengthcodetree;$/;"	m	struct:lodepng::ExtractZlib	file:
+codetree	lodepng_util.cpp	/^  HuffmanTree codetree, codetreeD, codelengthcodetree;$/;"	m	struct:lodepng::ExtractZlib	file:
+codetreeD	lodepng_util.cpp	/^  HuffmanTree codetree, codetreeD, codelengthcodetree;$/;"	m	struct:lodepng::ExtractZlib	file:
+coin_cleanup	lodepng.cpp	/^static void coin_cleanup(void* c)$/;"	f	file:
+coin_compare	lodepng.cpp	/^static int coin_compare(const void* a, const void* b) {$/;"	f	file:
+coin_copy	lodepng.cpp	/^static void coin_copy(Coin* c1, const Coin* c2)$/;"	f	file:
+coin_init	lodepng.cpp	/^static void coin_init(Coin* c)$/;"	f	file:
+color	lodepng.h	/^  LodePNGColorMode color;     \/*color type and bits, palette and transparency of the PNG file*\/$/;"	m	struct:LodePNGInfo
+colorConvertTest	lodepng_unittest.cpp	/^void colorConvertTest(const std::string& bits_in, LodePNGColorType colorType_in, unsigned bitDepth_in,$/;"	f
+colorType	lodepng_unittest.cpp	/^  LodePNGColorType colorType;$/;"	m	struct:Image	file:
+colorTypeString	pngdetail.cpp	/^std::string colorTypeString(LodePNGColorType type)$/;"	f
+color_convert	lodepng.h	/^  unsigned color_convert; \/*whether to convert the PNG to the color type you want. Default: yes*\/$/;"	m	struct:LodePNGDecoderSettings
+color_tree_add	lodepng.cpp	/^static void color_tree_add(ColorTree* tree,$/;"	f	file:
+color_tree_cleanup	lodepng.cpp	/^static void color_tree_cleanup(ColorTree* tree)$/;"	f	file:
+color_tree_get	lodepng.cpp	/^static int color_tree_get(ColorTree* tree, unsigned char r, unsigned char g, unsigned char b, unsigned char a)$/;"	f	file:
+color_tree_has	lodepng.cpp	/^static int color_tree_has(ColorTree* tree, unsigned char r, unsigned char g, unsigned char b, unsigned char a)$/;"	f	file:
+color_tree_init	lodepng.cpp	/^static void color_tree_init(ColorTree* tree)$/;"	f	file:
+colored	lodepng.h	/^  unsigned colored; \/*not greyscale*\/$/;"	m	struct:LodePNGColorProfile
+colortype	lodepng.h	/^  LodePNGColorType colortype; \/*color type, see PNG standard or documentation further in this header file*\/$/;"	m	struct:LodePNGColorMode
+commandRun	oem.cpp	/^int Oem::commandRun(ushort wCmd, int nCmdParam) {$/;"	f	class:Oem
+comports	rs232.c	/^char comports[38][16]={"\/dev\/ttyS0","\/dev\/ttyS1","\/dev\/ttyS2","\/dev\/ttyS3","\/dev\/ttyS4","\/dev\/ttyS5",$/;"	v
+compress	lodepng.cpp	/^unsigned compress(std::vector<unsigned char>& out, const std::vector<unsigned char>& in,$/;"	f	namespace:lodepng
+compress	lodepng.cpp	/^unsigned compress(std::vector<unsigned char>& out, const unsigned char* in, size_t insize,$/;"	f	namespace:lodepng
+compressedbits	lodepng_util.h	/^  size_t compressedbits; \/\/size of compressed block in bits$/;"	m	struct:lodepng::ZlibBlockInfo
+compression_method	lodepng.h	/^  unsigned compression_method;\/*compression method of the original file. Always 0.*\/$/;"	m	struct:LodePNGInfo
+confirm	helper.cpp	/^bool Helper::confirm(const std::string &message, const std::string &title) {$/;"	f	class:Helper
+consoleConfig	helper.h	/^    Config consoleConfig;$/;"	m	class:Helper
+countZeros	lodepng.cpp	/^static unsigned countZeros(const unsigned char* data, size_t size, size_t pos)$/;"	f	file:
+createComplexPNG	lodepng_unittest.cpp	/^void createComplexPNG(std::vector<unsigned char>& png)$/;"	f
+currentMillis	utils.cpp	/^int64 Utils::currentMillis() {$/;"	f	class:Utils
+custom_context	lodepng.h	/^  const void* custom_context; \/*optional custom settings for custom functions*\/$/;"	m	struct:LodePNGCompressSettings
+custom_context	lodepng.h	/^  const void* custom_context; \/*optional custom settings for custom functions*\/$/;"	m	struct:LodePNGDecompressSettings
+custom_deflate	lodepng.h	/^  unsigned (*custom_deflate)(unsigned char**, size_t*,$/;"	m	struct:LodePNGCompressSettings
+custom_inflate	lodepng.h	/^  unsigned (*custom_inflate)(unsigned char**, size_t*,$/;"	m	struct:LodePNGDecompressSettings
+custom_zlib	lodepng.h	/^  unsigned (*custom_zlib)(unsigned char**, size_t*,$/;"	m	struct:LodePNGCompressSettings
+custom_zlib	lodepng.h	/^  unsigned (*custom_zlib)(unsigned char**, size_t*,$/;"	m	struct:LodePNGDecompressSettings
+data	lodepng.cpp	/^  unsigned char* data;$/;"	m	struct:ucvector	file:
+data	lodepng.cpp	/^  unsigned* data;$/;"	m	struct:uivector	file:
+data	lodepng_unittest.cpp	/^  std::vector<unsigned char> data;$/;"	m	struct:Image	file:
+day	lodepng.h	/^  unsigned day;     \/*1-31*\/$/;"	m	struct:LodePNGTime
+decode	lodepng.cpp	/^unsigned decode(std::vector<unsigned char>& out, unsigned& w, unsigned& h, const std::string& filename,$/;"	f	namespace:lodepng
+decode	lodepng.cpp	/^unsigned decode(std::vector<unsigned char>& out, unsigned& w, unsigned& h, const unsigned char* in,$/;"	f	namespace:lodepng
+decode	lodepng.cpp	/^unsigned decode(std::vector<unsigned char>& out, unsigned& w, unsigned& h,$/;"	f	namespace:lodepng
+decode	lodepng_util.cpp	/^    int decode(bool& decoded, unsigned long& result, size_t& treepos, unsigned long bit) const$/;"	f	struct:lodepng::ExtractZlib::HuffmanTree
+decode	lodepng_util.cpp	/^  void decode(const unsigned char* in, size_t size)$/;"	f	struct:lodepng::ExtractPNG
+decodeGeneric	lodepng.cpp	/^static void decodeGeneric(unsigned char** out, unsigned* w, unsigned* h,$/;"	f	file:
+decoder	lodepng.h	/^  LodePNGDecoderSettings decoder; \/*the decoding settings*\/$/;"	m	struct:LodePNGState
+decompress	lodepng.cpp	/^unsigned decompress(std::vector<unsigned char>& out, const std::vector<unsigned char>& in,$/;"	f	namespace:lodepng
+decompress	lodepng.cpp	/^unsigned decompress(std::vector<unsigned char>& out, const unsigned char* in, size_t insize,$/;"	f	namespace:lodepng
+decompress	lodepng_util.cpp	/^  int decompress(std::vector<unsigned char>& out, const std::vector<unsigned char>& in) \/\/returns error value$/;"	f	struct:lodepng::ExtractZlib
+deflate	lodepng.cpp	/^static unsigned deflate(unsigned char** out, size_t* outsize,$/;"	f	file:
+deflateDynamic	lodepng.cpp	/^static unsigned deflateDynamic(ucvector* out, size_t* bp, Hash* hash,$/;"	f	file:
+deflateFixed	lodepng.cpp	/^static unsigned deflateFixed(ucvector* out, size_t* bp, Hash* hash,$/;"	f	file:
+deflateNoCompression	lodepng.cpp	/^static unsigned deflateNoCompression(ucvector* out, const unsigned char* data, size_t datasize)$/;"	f	file:
+deleteAll	oem.cpp	/^int Oem::deleteAll() {$/;"	f	class:Oem
+deleteId	oem.cpp	/^int Oem::deleteId(int nPos) {$/;"	f	class:Oem
+displayAsciiArt	pngdetail.cpp	/^void displayAsciiArt(const std::vector<unsigned char>& image, unsigned w, unsigned h, unsigned asciiw)$/;"	f
+displayChunkNames	pngdetail.cpp	/^void displayChunkNames(const std::vector<unsigned char>& buffer, const Options& options)$/;"	f
+displayColorsHex	pngdetail.cpp	/^void displayColorsHex(const std::vector<unsigned char>& image, unsigned w, unsigned h, bool sixteen)$/;"	f
+displayFilterTypes	pngdetail.cpp	/^void displayFilterTypes(const std::vector<unsigned char>& buffer)$/;"	f
+displayPNGInfo	pngdetail.cpp	/^void displayPNGInfo(const LodePNGInfo& info, const Options& options)$/;"	f
+displayPalette	pngdetail.cpp	/^void displayPalette(const std::vector<unsigned char>& buffer)$/;"	f
+displayPalettePixels	pngdetail.cpp	/^void displayPalettePixels(const std::vector<unsigned char>& buffer)$/;"	f
+distlengths	lodepng_util.h	/^  std::vector<int> distlengths; \/\/32 code lengths for dist symbols$/;"	m	struct:lodepng::ZlibBlockInfo
+doCodecTest	lodepng_unittest.cpp	/^void doCodecTest(Image& image)$/;"	f
+doCodecTestC	lodepng_unittest.cpp	/^void doCodecTestC(Image& image)$/;"	f
+doCodecTestCPP	lodepng_unittest.cpp	/^void doCodecTestCPP(Image& image)$/;"	f
+doCodecTestInterlaced	lodepng_unittest.cpp	/^void doCodecTestInterlaced(Image& image)$/;"	f
+doMain	lodepng_unittest.cpp	/^void doMain()$/;"	f
+doPngSuiteEqualTest	lodepng_unittest.cpp	/^void doPngSuiteEqualTest(const std::string& base64a, const std::string& base64b)$/;"	f
+doPngSuiteTinyTest	lodepng_unittest.cpp	/^void doPngSuiteTinyTest(const std::string& base64, unsigned w, unsigned h,$/;"	f
+doRGBAToPaletteTest	lodepng_unittest.cpp	/^void doRGBAToPaletteTest(unsigned char* palette, size_t size, LodePNGColorType expectedType = LCT_PALETTE)$/;"	f
+doTestHuffmanCodeLengths	lodepng_unittest.cpp	/^void doTestHuffmanCodeLengths(const std::string& expectedstr, const std::string& counts, size_t bitlength)$/;"	f
+downloadingImage	oem.cpp	/^int Oem::downloadingImage(std::string &err) {$/;"	f	class:Oem
+encode	lodepng.cpp	/^unsigned encode(const std::string& filename,$/;"	f	namespace:lodepng
+encode	lodepng.cpp	/^unsigned encode(std::vector<unsigned char>& out, const unsigned char* in, unsigned w, unsigned h,$/;"	f	namespace:lodepng
+encode	lodepng.cpp	/^unsigned encode(std::vector<unsigned char>& out,$/;"	f	namespace:lodepng
+encodeLZ77	lodepng.cpp	/^static unsigned encodeLZ77(uivector* out, Hash* hash,$/;"	f	file:
+encoder	lodepng.h	/^  LodePNGEncoderSettings encoder; \/*the encoding settings*\/$/;"	m	struct:LodePNGState
+endsWith	utils.cpp	/^bool Utils::endsWith(const std::string &s, const std::string &suffix) {$/;"	f	class:Utils
+enrollCount	oem.cpp	/^int Oem::enrollCount() {$/;"	f	class:Oem
+enrollNth	oem.cpp	/^int Oem::enrollNth(int nPos, int nTurn) {$/;"	f	class:Oem
+enrollStart	oem.cpp	/^int Oem::enrollStart(int nPos) {$/;"	f	class:Oem
+error	lodepng.h	/^  unsigned error;$/;"	m	struct:LodePNGState
+error	lodepng_util.cpp	/^  int error;$/;"	m	struct:lodepng::ExtractPNG	file:
+error	lodepng_util.cpp	/^  int error;$/;"	m	struct:lodepng::ExtractZlib	file:
+error	oem.cpp	/^std::string Oem::error(int nNackInfo, int nPos) {$/;"	f	class:Oem
+error	rs232.c	/^    error;$/;"	v
+extractChunkNames	lodepng_unittest.cpp	/^std::string extractChunkNames(const std::vector<unsigned char>& png)$/;"	f
+extractZlibInfo	lodepng_util.cpp	/^void extractZlibInfo(std::vector<ZlibBlockInfo>& zlibinfo, const std::vector<unsigned char>& in)$/;"	f	namespace:lodepng
+fail	lodepng_unittest.cpp	/^void fail()$/;"	f
+filename	config.h	/^    std::string filename;$/;"	m	class:Config
+filter	lodepng.cpp	/^static unsigned filter(unsigned char* out, const unsigned char* in, unsigned w, unsigned h,$/;"	f	file:
+filterScanline	lodepng.cpp	/^static void filterScanline(unsigned char* out, const unsigned char* scanline, const unsigned char* prevline,$/;"	f	file:
+filter_method	lodepng.h	/^  unsigned filter_method;     \/*filter method of the original file*\/$/;"	m	struct:LodePNGInfo
+filter_palette_zero	lodepng.h	/^  unsigned filter_palette_zero;$/;"	m	struct:LodePNGEncoderSettings
+filter_strategy	lodepng.h	/^  LodePNGFilterStrategy filter_strategy;$/;"	m	struct:LodePNGEncoderSettings
+flipBit	lodepng_unittest.cpp	/^unsigned char flipBit(unsigned char c, int bitpos)$/;"	f
+flog2	lodepng.cpp	/^static float flog2(float f)$/;"	f	file:
+force_palette	lodepng.h	/^  unsigned force_palette;$/;"	m	struct:LodePNGEncoderSettings
+format	utils.cpp	/^std::string Utils::format(const char *fmt, int x1) {$/;"	f	class:Utils
+format	utils.cpp	/^std::string Utils::format(const char *fmt, int x1, int x2) {$/;"	f	class:Utils
+format	utils.cpp	/^std::string Utils::format(const char *fmt, int x1, int x2, int x3) {$/;"	f	class:Utils
+format	utils.cpp	/^std::string Utils::format(const char *fmt, std::string x1) {$/;"	f	class:Utils
+format	utils.cpp	/^std::string Utils::format(const char *fmt, std::string x1, std::string x2) {$/;"	f	class:Utils
+format	utils.cpp	/^std::string Utils::format(const char *fmt, std::string x1, std::string x2, std::string x3) {$/;"	f	class:Utils
+formatSerialNumber	utils.cpp	/^std::string Utils::formatSerialNumber(uchar *p) {$/;"	f	class:Utils
+fromBase64	lodepng_unittest.cpp	/^int fromBase64(int v)$/;"	f
+fromBase64	lodepng_unittest.cpp	/^void fromBase64(T& out, const U& in)$/;"	f
+gDevInfo	oem.h	/^    devinfo gDevInfo;       \/\/ Fingerprint factory information$/;"	m	class:Oem
+gbyImg256_2	oem.cpp	/^static uchar gbyImg256_2[202*258];$/;"	v	file:
+gbyImg256_tmp	oem.cpp	/^static uchar gbyImg256_tmp[258*202];$/;"	v	file:
+gbyImg8bit	oem.h	/^    uchar    gbyImg8bit[IMG8BIT_SIZE];          \/\/ Image data of a pre-processed image taken from the sensor (smaller but unaccurate)$/;"	m	class:Oem
+gbyImgRaw	oem.h	/^    uchar    gbyImgRaw[320*240];                \/\/ Image data of a raw image taken from the sensor           (bigger but accurate)$/;"	m	class:Oem
+gbyImgRaw2	oem.cpp	/^static uchar gbyImgRaw2[240*320\/4];$/;"	v	file:
+gbyTemplate	oem.h	/^    uchar    gbyTemplate[FP_TEMPLATE_SIZE];     \/\/ Holds the template (simplified fingerprint data) of just one fingerprint$/;"	m	class:Oem
+gbyTemplateDB	oem.h	/^    uchar    gbyTemplateDB[FP_TEMPLATE_DB_SIZE];\/\/ Holds the templates of every fingerprint (200)$/;"	m	class:Oem
+generateFixedDistanceTree	lodepng.cpp	/^static unsigned generateFixedDistanceTree(HuffmanTree* tree)$/;"	f	file:
+generateFixedLitLenTree	lodepng.cpp	/^static unsigned generateFixedLitLenTree(HuffmanTree* tree)$/;"	f	file:
+generateFixedTrees	lodepng_util.cpp	/^  void generateFixedTrees(HuffmanTree& tree, HuffmanTree& treeD) \/\/get the tree of a deflated block with fixed tree$/;"	f	struct:lodepng::ExtractZlib
+generateTestImage	lodepng_unittest.cpp	/^void generateTestImage(Image& image, unsigned width, unsigned height, LodePNGColorType colorType = LCT_RGBA, unsigned bitDepth = 8)$/;"	f
+getChunkInfo	lodepng_util.cpp	/^unsigned getChunkInfo(std::vector<std::string>& names, std::vector<size_t>& sizes,$/;"	f	namespace:lodepng
+getChunks	lodepng_util.cpp	/^unsigned getChunks(std::vector<std::string> names[3],$/;"	f	namespace:lodepng
+getComBaudrate	helper.cpp	/^uint Helper::getComBaudrate() {$/;"	f	class:Helper
+getComPort	helper.cpp	/^std::string Helper::getComPort() {$/;"	f	class:Helper
+getDatabaseEnd	oem.cpp	/^int Oem::getDatabaseEnd() {$/;"	f	class:Oem
+getDatabaseStart	oem.cpp	/^int Oem::getDatabaseStart() {$/;"	f	class:Oem
+getFilterTypes	lodepng_util.cpp	/^unsigned getFilterTypes(std::vector<unsigned char>& filterTypes, const std::vector<unsigned char>& png)$/;"	f	namespace:lodepng
+getFilterTypesInterlaced	lodepng_util.cpp	/^unsigned getFilterTypesInterlaced(std::vector<std::vector<unsigned char> >& filterTypes,$/;"	f	namespace:lodepng
+getHash	lodepng.cpp	/^static unsigned getHash(const unsigned char* data, size_t size, size_t pos)$/;"	f	file:
+getId	helper.cpp	/^uint Helper::getId() {$/;"	f	class:Helper
+getImage	oem.cpp	/^int Oem::getImage() {$/;"	f	class:Oem
+getNumColorChannels	lodepng.cpp	/^static unsigned getNumColorChannels(LodePNGColorType colortype)$/;"	f	file:
+getNumColorChannels	lodepng_unittest.cpp	/^unsigned getNumColorChannels(unsigned colorType)$/;"	f
+getOpenFilename	helper.cpp	/^std::string Helper::getOpenFilename(const std::string &exts) {$/;"	f	class:Helper
+getPNGHeaderInfo	lodepng_util.cpp	/^LodePNGInfo getPNGHeaderInfo(const std::vector<unsigned char>& png)$/;"	f	namespace:lodepng
+getPaletteTranslucency	lodepng.cpp	/^static unsigned getPaletteTranslucency(const unsigned char* palette, size_t palettesize)$/;"	f	file:
+getPaletteValue	lodepng_util.cpp	/^int getPaletteValue(const unsigned char* data, size_t i, int bits)$/;"	f	namespace:lodepng
+getPixelColorRGBA16	lodepng.cpp	/^static void getPixelColorRGBA16(unsigned short* r, unsigned short* g, unsigned short* b, unsigned short* a,$/;"	f	file:
+getPixelColorRGBA8	lodepng.cpp	/^static void getPixelColorRGBA8(unsigned char* r, unsigned char* g,$/;"	f	file:
+getPixelColorsRGBA8	lodepng.cpp	/^static void getPixelColorsRGBA8(unsigned char* buffer, size_t numpixels,$/;"	f	file:
+getRawimage	oem.cpp	/^int Oem::getRawimage() {$/;"	f	class:Oem
+getSaveFilename	helper.cpp	/^std::string Helper::getSaveFilename(const std::string &exts, const std::string &suggested) {$/;"	f	class:Helper
+getTemplate	oem.cpp	/^int Oem::getTemplate(int nPos) {$/;"	f	class:Oem
+getTreeInflateDynamic	lodepng.cpp	/^static unsigned getTreeInflateDynamic(HuffmanTree* tree_ll, HuffmanTree* tree_d,$/;"	f	file:
+getTreeInflateDynamic	lodepng_util.cpp	/^  void getTreeInflateDynamic(HuffmanTree& tree, HuffmanTree& treeD,$/;"	f	struct:lodepng::ExtractZlib
+getTreeInflateFixed	lodepng.cpp	/^static void getTreeInflateFixed(HuffmanTree* tree_ll, HuffmanTree* tree_d)$/;"	f	file:
+getValueRequiredBits	lodepng.cpp	/^static unsigned getValueRequiredBits(unsigned char value)$/;"	f	file:
+gwDevID	oem.h	/^    ushort  gwDevID;        \/\/ Id of the fingerprint sensor (defaults to 1)$/;"	m	class:Oem
+gwLastAck	oem.h	/^    ushort  gwLastAck;      \/\/ Acnowledge response from the commucation protocol$/;"	m	class:Oem
+gwLastAckParam	oem.h	/^    int     gwLastAckParam; \/\/ Additional data for the acnowledge response$/;"	m	class:Oem
+handler	main.cpp	/^void handler(void *p) {$/;"	f
+handlerUiPolling	controller.cpp	/^void handlerUiPolling(void *parameter) {$/;"	f
+handlerUiPolling	controller.h	/^    void (*handlerUiPolling)(void*);$/;"	m	class:Controller
+handlerUiPolling	controllerJni.cpp	/^void handlerUiPolling(void *parameter) {$/;"	f
+hash_cleanup	lodepng.cpp	/^static void hash_cleanup(Hash* hash)$/;"	f	file:
+hash_init	lodepng.cpp	/^static unsigned hash_init(Hash* hash, unsigned windowsize)$/;"	f	file:
+hclen	lodepng_util.h	/^  int hclen; \/\/the HCLEN value that was filled in for this tree$/;"	m	struct:lodepng::ZlibBlockInfo
+hdist	lodepng_util.h	/^  int hdist; \/\/the HDIST value that was filled in for this tree$/;"	m	struct:lodepng::ZlibBlockInfo
+head	lodepng.cpp	/^  int* head; \/*hash value to head circular pos - can be outdated if went around window*\/$/;"	m	struct:Hash	file:
+headz	lodepng.cpp	/^  int* headz; \/*similar to head, but for chainz*\/$/;"	m	struct:Hash	file:
+height	lodepng_unittest.cpp	/^  unsigned height;$/;"	m	struct:Image	file:
+hlit	lodepng_util.h	/^  int hlit; \/\/the HLIT value that was filled in for this tree$/;"	m	struct:lodepng::ZlibBlockInfo
+hour	lodepng.h	/^  unsigned hour;    \/*0-23*\/$/;"	m	struct:LodePNGTime
+huffmanDecodeSymbol	lodepng.cpp	/^static unsigned huffmanDecodeSymbol(const unsigned char* in, size_t* bp,$/;"	f	file:
+huffmanDecodeSymbol	lodepng_util.cpp	/^  unsigned long huffmanDecodeSymbol(const unsigned char* in, size_t& bp, const HuffmanTree& tree, size_t inlength)$/;"	f	struct:lodepng::ExtractZlib
+id	config.h	/^    uint id;$/;"	m	class:Config
+identify	oem.cpp	/^int Oem::identify() {$/;"	f	class:Oem
+identifyTemplate	oem.cpp	/^int Oem::identifyTemplate() {$/;"	f	class:Oem
+ignore_adler32	lodepng.h	/^  unsigned ignore_adler32; \/*if 1, continue and don't give an error message if the Adler32 checksum is corrupted*\/$/;"	m	struct:LodePNGDecompressSettings
+ignore_crc	lodepng.h	/^  unsigned ignore_crc; \/*ignore CRC checksums*\/$/;"	m	struct:LodePNGDecoderSettings
+image256	helper.h	/^    std::vector<uchar> image256;$/;"	m	class:Helper
+image320	helper.h	/^    std::vector<uchar> image320;$/;"	m	class:Helper
+index	lodepng.cpp	/^  int index; \/*the payload. Only has a meaningful value if this is in the last level*\/$/;"	m	struct:ColorTree	file:
+inflate	lodepng.cpp	/^static unsigned inflate(unsigned char** out, size_t* outsize,$/;"	f	file:
+inflate	lodepng_util.cpp	/^  void inflate(std::vector<unsigned char>& out, const std::vector<unsigned char>& in, size_t inpos = 0)$/;"	f	struct:lodepng::ExtractZlib
+inflateHuffmanBlock	lodepng.cpp	/^static unsigned inflateHuffmanBlock(ucvector* out, const unsigned char* in, size_t* bp,$/;"	f	file:
+inflateHuffmanBlock	lodepng_util.cpp	/^  void inflateHuffmanBlock(std::vector<unsigned char>& out,$/;"	f	struct:lodepng::ExtractZlib
+inflateNoCompression	lodepng.cpp	/^static unsigned inflateNoCompression(ucvector* out, const unsigned char* in, size_t* bp, size_t* pos, size_t inlength)$/;"	f	file:
+inflateNoCompression	lodepng_util.cpp	/^  void inflateNoCompression(std::vector<unsigned char>& out,$/;"	f	struct:lodepng::ExtractZlib
+info_png	lodepng.h	/^  LodePNGInfo info_png; \/*info of the PNG image obtained after decoding*\/$/;"	m	struct:LodePNGState
+info_raw	lodepng.h	/^  LodePNGColorMode info_raw; \/*specifies the format in which you would like to get the raw pixel buffer*\/$/;"	m	struct:LodePNGState
+init_coins	lodepng.cpp	/^static void init_coins(Coin* coins, size_t num)$/;"	f	file:
+insertChunks	lodepng_util.cpp	/^unsigned insertChunks(std::vector<unsigned char>& png,$/;"	f	namespace:lodepng
+int16	config.h	/^typedef short int16;               \/* 16 bit signed *\/$/;"	t
+int32	config.h	/^typedef int int32;                 \/* 32 bit signed *\/$/;"	t
+int64	config.h	/^typedef long long int64;           \/* 64 bit signed *\/$/;"	t
+int8	config.h	/^typedef signed char int8;          \/* 8 bit signed *\/$/;"	t
+interlace_method	lodepng.h	/^  unsigned interlace_method;  \/*interlace method of the original file*\/$/;"	m	struct:LodePNGInfo
+isPressFinger	oem.cpp	/^int Oem::isPressFinger() {$/;"	f	class:Oem
+itext_keys	lodepng.h	/^  char** itext_keys; \/*the English keyword of the text chunk (e.g. "Comment")*\/$/;"	m	struct:LodePNGInfo
+itext_langtags	lodepng.h	/^  char** itext_langtags; \/*language tag for this text's language, ISO\/IEC 646 string, e.g. ISO 639 language tag*\/$/;"	m	struct:LodePNGInfo
+itext_num	lodepng.h	/^  size_t itext_num; \/*the amount of international texts in this PNG*\/$/;"	m	struct:LodePNGInfo
+itext_strings	lodepng.h	/^  char** itext_strings; \/*the actual international text - UTF-8 string*\/$/;"	m	struct:LodePNGInfo
+itext_transkeys	lodepng.h	/^  char** itext_transkeys; \/*keyword translated to the international language - UTF-8 string*\/$/;"	m	struct:LodePNGInfo
+java_exception	controller_wrap.cpp	/^  const char *java_exception;$/;"	m	struct:__anon2	file:
+key	lodepng.h	/^  unsigned key; \/*if true, image is not opaque. Only if true and alpha is false, color key is possible.*\/$/;"	m	struct:LodePNGColorProfile
+key_b	lodepng.h	/^  unsigned key_b;       \/*blue component of color key*\/$/;"	m	struct:LodePNGColorMode
+key_b	lodepng.h	/^  unsigned short key_b;$/;"	m	struct:LodePNGColorProfile
+key_defined	lodepng.h	/^  unsigned key_defined; \/*is a transparent color key given? 0 = false, 1 = true*\/$/;"	m	struct:LodePNGColorMode
+key_g	lodepng.h	/^  unsigned key_g;       \/*green component of color key*\/$/;"	m	struct:LodePNGColorMode
+key_g	lodepng.h	/^  unsigned short key_g;$/;"	m	struct:LodePNGColorProfile
+key_r	lodepng.h	/^  unsigned key_r;       \/*red\/greyscale component of color key*\/$/;"	m	struct:LodePNGColorMode
+key_r	lodepng.h	/^  unsigned short key_r; \/*these values are always in 16-bit bitdepth in the profile*\/$/;"	m	struct:LodePNGColorProfile
+lastOpen	commbase_rs232.h	/^    int lastOpen;$/;"	m	class:Rs232CommSerial
+lastType	helper.h	/^    ImageType lastType;$/;"	m	class:Helper
+lazymatching	lodepng.h	/^  unsigned lazymatching; \/*use lazy matching: better compression but a bit slower. Default: true*\/$/;"	m	struct:LodePNGCompressSettings
+lengths	lodepng.cpp	/^  unsigned* lengths; \/*the lengths of the codes of the 1d-tree*\/$/;"	m	struct:HuffmanTree	file:
+litlenlengths	lodepng_util.h	/^  std::vector<int> litlenlengths; \/\/288 code lengths for lit\/len symbols$/;"	m	struct:lodepng::ZlibBlockInfo
+load_file	lodepng.cpp	/^void load_file(std::vector<unsigned char>& buffer, const std::string& filename)$/;"	f	namespace:lodepng
+loadingImage	oem.cpp	/^int Oem::loadingImage(std::string &err) {$/;"	f	class:Oem
+loadingImageLive	oem.cpp	/^int Oem::loadingImageLive(std::string &err) {$/;"	f	class:Oem
+loadingImageRaw	oem.cpp	/^int Oem::loadingImageRaw(std::string &err) {$/;"	f	class:Oem
+lodepng	lodepng.cpp	/^namespace lodepng$/;"	n	file:
+lodepng	lodepng.h	/^namespace lodepng$/;"	n
+lodepng	lodepng_util.cpp	/^namespace lodepng$/;"	n	file:
+lodepng	lodepng_util.h	/^namespace lodepng$/;"	n
+lodepng_add32bitInt	lodepng.cpp	/^static void lodepng_add32bitInt(ucvector* buffer, unsigned value)$/;"	f	file:
+lodepng_add_itext	lodepng.cpp	/^unsigned lodepng_add_itext(LodePNGInfo* info, const char* key, const char* langtag,$/;"	f
+lodepng_add_text	lodepng.cpp	/^unsigned lodepng_add_text(LodePNGInfo* info, const char* key, const char* str)$/;"	f
+lodepng_auto_choose_color	lodepng.cpp	/^unsigned lodepng_auto_choose_color(LodePNGColorMode* mode_out,$/;"	f
+lodepng_can_have_alpha	lodepng.cpp	/^unsigned lodepng_can_have_alpha(const LodePNGColorMode* info)$/;"	f
+lodepng_chunk_ancillary	lodepng.cpp	/^unsigned char lodepng_chunk_ancillary(const unsigned char* chunk)$/;"	f
+lodepng_chunk_append	lodepng.cpp	/^unsigned lodepng_chunk_append(unsigned char** out, size_t* outlength, const unsigned char* chunk)$/;"	f
+lodepng_chunk_check_crc	lodepng.cpp	/^unsigned lodepng_chunk_check_crc(const unsigned char* chunk)$/;"	f
+lodepng_chunk_create	lodepng.cpp	/^unsigned lodepng_chunk_create(unsigned char** out, size_t* outlength, unsigned length,$/;"	f
+lodepng_chunk_data	lodepng.cpp	/^unsigned char* lodepng_chunk_data(unsigned char* chunk)$/;"	f
+lodepng_chunk_data_const	lodepng.cpp	/^const unsigned char* lodepng_chunk_data_const(const unsigned char* chunk)$/;"	f
+lodepng_chunk_generate_crc	lodepng.cpp	/^void lodepng_chunk_generate_crc(unsigned char* chunk)$/;"	f
+lodepng_chunk_length	lodepng.cpp	/^unsigned lodepng_chunk_length(const unsigned char* chunk)$/;"	f
+lodepng_chunk_next	lodepng.cpp	/^unsigned char* lodepng_chunk_next(unsigned char* chunk)$/;"	f
+lodepng_chunk_next_const	lodepng.cpp	/^const unsigned char* lodepng_chunk_next_const(const unsigned char* chunk)$/;"	f
+lodepng_chunk_private	lodepng.cpp	/^unsigned char lodepng_chunk_private(const unsigned char* chunk)$/;"	f
+lodepng_chunk_safetocopy	lodepng.cpp	/^unsigned char lodepng_chunk_safetocopy(const unsigned char* chunk)$/;"	f
+lodepng_chunk_type	lodepng.cpp	/^void lodepng_chunk_type(char type[5], const unsigned char* chunk)$/;"	f
+lodepng_chunk_type_equals	lodepng.cpp	/^unsigned char lodepng_chunk_type_equals(const unsigned char* chunk, const char* type)$/;"	f
+lodepng_clear_itext	lodepng.cpp	/^void lodepng_clear_itext(LodePNGInfo* info)$/;"	f
+lodepng_clear_text	lodepng.cpp	/^void lodepng_clear_text(LodePNGInfo* info)$/;"	f
+lodepng_color_mode_cleanup	lodepng.cpp	/^void lodepng_color_mode_cleanup(LodePNGColorMode* info)$/;"	f
+lodepng_color_mode_copy	lodepng.cpp	/^unsigned lodepng_color_mode_copy(LodePNGColorMode* dest, const LodePNGColorMode* source)$/;"	f
+lodepng_color_mode_equal	lodepng.cpp	/^static int lodepng_color_mode_equal(const LodePNGColorMode* a, const LodePNGColorMode* b)$/;"	f	file:
+lodepng_color_mode_init	lodepng.cpp	/^void lodepng_color_mode_init(LodePNGColorMode* info)$/;"	f
+lodepng_color_profile_init	lodepng.cpp	/^void lodepng_color_profile_init(LodePNGColorProfile* profile)$/;"	f
+lodepng_compress_settings_init	lodepng.cpp	/^void lodepng_compress_settings_init(LodePNGCompressSettings* settings)$/;"	f
+lodepng_convert	lodepng.cpp	/^unsigned lodepng_convert(unsigned char* out, const unsigned char* in,$/;"	f
+lodepng_crc32	lodepng.cpp	/^unsigned lodepng_crc32(const unsigned char* buf, size_t len)$/;"	f
+lodepng_crc32_table	lodepng.cpp	/^static unsigned lodepng_crc32_table[256] = {$/;"	v	file:
+lodepng_decode	lodepng.cpp	/^unsigned lodepng_decode(unsigned char** out, unsigned* w, unsigned* h,$/;"	f
+lodepng_decode24	lodepng.cpp	/^unsigned lodepng_decode24(unsigned char** out, unsigned* w, unsigned* h, const unsigned char* in, size_t insize)$/;"	f
+lodepng_decode24_file	lodepng.cpp	/^unsigned lodepng_decode24_file(unsigned char** out, unsigned* w, unsigned* h, const char* filename)$/;"	f
+lodepng_decode32	lodepng.cpp	/^unsigned lodepng_decode32(unsigned char** out, unsigned* w, unsigned* h, const unsigned char* in, size_t insize)$/;"	f
+lodepng_decode32_file	lodepng.cpp	/^unsigned lodepng_decode32_file(unsigned char** out, unsigned* w, unsigned* h, const char* filename)$/;"	f
+lodepng_decode_file	lodepng.cpp	/^unsigned lodepng_decode_file(unsigned char** out, unsigned* w, unsigned* h, const char* filename,$/;"	f
+lodepng_decode_memory	lodepng.cpp	/^unsigned lodepng_decode_memory(unsigned char** out, unsigned* w, unsigned* h, const unsigned char* in,$/;"	f
+lodepng_decoder_settings_init	lodepng.cpp	/^void lodepng_decoder_settings_init(LodePNGDecoderSettings* settings)$/;"	f
+lodepng_decompress_settings_init	lodepng.cpp	/^void lodepng_decompress_settings_init(LodePNGDecompressSettings* settings)$/;"	f
+lodepng_default_compress_settings	lodepng.cpp	/^const LodePNGCompressSettings lodepng_default_compress_settings = {2, 1, DEFAULT_WINDOWSIZE, 3, 128, 1, 0, 0, 0};$/;"	v
+lodepng_default_decompress_settings	lodepng.cpp	/^const LodePNGDecompressSettings lodepng_default_decompress_settings = {0, 0, 0, 0};$/;"	v
+lodepng_deflate	lodepng.cpp	/^unsigned lodepng_deflate(unsigned char** out, size_t* outsize,$/;"	f
+lodepng_deflatev	lodepng.cpp	/^static unsigned lodepng_deflatev(ucvector* out, const unsigned char* in, size_t insize,$/;"	f	file:
+lodepng_encode	lodepng.cpp	/^unsigned lodepng_encode(unsigned char** out, size_t* outsize,$/;"	f
+lodepng_encode24	lodepng.cpp	/^unsigned lodepng_encode24(unsigned char** out, size_t* outsize, const unsigned char* image, unsigned w, unsigned h)$/;"	f
+lodepng_encode24_file	lodepng.cpp	/^unsigned lodepng_encode24_file(const char* filename, const unsigned char* image, unsigned w, unsigned h)$/;"	f
+lodepng_encode32	lodepng.cpp	/^unsigned lodepng_encode32(unsigned char** out, size_t* outsize, const unsigned char* image, unsigned w, unsigned h)$/;"	f
+lodepng_encode32_file	lodepng.cpp	/^unsigned lodepng_encode32_file(const char* filename, const unsigned char* image, unsigned w, unsigned h)$/;"	f
+lodepng_encode_file	lodepng.cpp	/^unsigned lodepng_encode_file(const char* filename, const unsigned char* image, unsigned w, unsigned h,$/;"	f
+lodepng_encode_memory	lodepng.cpp	/^unsigned lodepng_encode_memory(unsigned char** out, size_t* outsize, const unsigned char* image,$/;"	f
+lodepng_encoder_settings_init	lodepng.cpp	/^void lodepng_encoder_settings_init(LodePNGEncoderSettings* settings)$/;"	f
+lodepng_error_text	lodepng.cpp	/^const char* lodepng_error_text(unsigned code)$/;"	f
+lodepng_free	lodepng.cpp	/^static void lodepng_free(void* ptr)$/;"	f	file:
+lodepng_get_bpp	lodepng.cpp	/^unsigned lodepng_get_bpp(const LodePNGColorMode* info)$/;"	f
+lodepng_get_bpp_lct	lodepng.cpp	/^static unsigned lodepng_get_bpp_lct(LodePNGColorType colortype, unsigned bitdepth)$/;"	f	file:
+lodepng_get_channels	lodepng.cpp	/^unsigned lodepng_get_channels(const LodePNGColorMode* info)$/;"	f
+lodepng_get_color_profile	lodepng.cpp	/^unsigned lodepng_get_color_profile(LodePNGColorProfile* profile,$/;"	f
+lodepng_get_raw_size	lodepng.cpp	/^size_t lodepng_get_raw_size(unsigned w, unsigned h, const LodePNGColorMode* color)$/;"	f
+lodepng_get_raw_size_idat	lodepng.cpp	/^static size_t lodepng_get_raw_size_idat(unsigned w, unsigned h, const LodePNGColorMode* color)$/;"	f	file:
+lodepng_get_raw_size_lct	lodepng.cpp	/^size_t lodepng_get_raw_size_lct(unsigned w, unsigned h, LodePNGColorType colortype, unsigned bitdepth)$/;"	f
+lodepng_has_palette_alpha	lodepng.cpp	/^unsigned lodepng_has_palette_alpha(const LodePNGColorMode* info)$/;"	f
+lodepng_huffman_code_lengths	lodepng.cpp	/^unsigned lodepng_huffman_code_lengths(unsigned* lengths, const unsigned* frequencies,$/;"	f
+lodepng_inflate	lodepng.cpp	/^unsigned lodepng_inflate(unsigned char** out, size_t* outsize,$/;"	f
+lodepng_inflatev	lodepng.cpp	/^static unsigned lodepng_inflatev(ucvector* out,$/;"	f	file:
+lodepng_info_cleanup	lodepng.cpp	/^void lodepng_info_cleanup(LodePNGInfo* info)$/;"	f
+lodepng_info_copy	lodepng.cpp	/^unsigned lodepng_info_copy(LodePNGInfo* dest, const LodePNGInfo* source)$/;"	f
+lodepng_info_init	lodepng.cpp	/^void lodepng_info_init(LodePNGInfo* info)$/;"	f
+lodepng_info_swap	lodepng.cpp	/^void lodepng_info_swap(LodePNGInfo* a, LodePNGInfo* b)$/;"	f
+lodepng_inspect	lodepng.cpp	/^unsigned lodepng_inspect(unsigned* w, unsigned* h, LodePNGState* state,$/;"	f
+lodepng_is_alpha_type	lodepng.cpp	/^unsigned lodepng_is_alpha_type(const LodePNGColorMode* info)$/;"	f
+lodepng_is_greyscale_type	lodepng.cpp	/^unsigned lodepng_is_greyscale_type(const LodePNGColorMode* info)$/;"	f
+lodepng_is_palette_type	lodepng.cpp	/^unsigned lodepng_is_palette_type(const LodePNGColorMode* info)$/;"	f
+lodepng_load_file	lodepng.cpp	/^unsigned lodepng_load_file(unsigned char** out, size_t* outsize, const char* filename)$/;"	f
+lodepng_malloc	lodepng.cpp	/^static void* lodepng_malloc(size_t size)$/;"	f	file:
+lodepng_palette_add	lodepng.cpp	/^unsigned lodepng_palette_add(LodePNGColorMode* info,$/;"	f
+lodepng_palette_clear	lodepng.cpp	/^void lodepng_palette_clear(LodePNGColorMode* info)$/;"	f
+lodepng_read32bitInt	lodepng.cpp	/^unsigned lodepng_read32bitInt(const unsigned char* buffer)$/;"	f
+lodepng_realloc	lodepng.cpp	/^static void* lodepng_realloc(void* ptr, size_t new_size)$/;"	f	file:
+lodepng_save_file	lodepng.cpp	/^unsigned lodepng_save_file(const unsigned char* buffer, size_t buffersize, const char* filename)$/;"	f
+lodepng_set32bitInt	lodepng.cpp	/^static void lodepng_set32bitInt(unsigned char* buffer, unsigned value)$/;"	f	file:
+lodepng_state_cleanup	lodepng.cpp	/^void lodepng_state_cleanup(LodePNGState* state)$/;"	f
+lodepng_state_copy	lodepng.cpp	/^void lodepng_state_copy(LodePNGState* dest, const LodePNGState* source)$/;"	f
+lodepng_state_init	lodepng.cpp	/^void lodepng_state_init(LodePNGState* state)$/;"	f
+lodepng_zlib_compress	lodepng.cpp	/^unsigned lodepng_zlib_compress(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f
+lodepng_zlib_decompress	lodepng.cpp	/^unsigned lodepng_zlib_decompress(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f
+lz77_dbits	lodepng_util.h	/^  std::vector<int> lz77_dbits;$/;"	m	struct:lodepng::ZlibBlockInfo
+lz77_dcode	lodepng_util.h	/^  std::vector<int> lz77_dcode;$/;"	m	struct:lodepng::ZlibBlockInfo
+lz77_dvalue	lodepng_util.h	/^  std::vector<int> lz77_dvalue;$/;"	m	struct:lodepng::ZlibBlockInfo
+lz77_lbits	lodepng_util.h	/^  std::vector<int> lz77_lbits;$/;"	m	struct:lodepng::ZlibBlockInfo
+lz77_lcode	lodepng_util.h	/^  std::vector<int> lz77_lcode; \/\/LZ77 codes. 0-255: literals. 256: end symbol. 257-285: length code of length\/dist pairs$/;"	m	struct:lodepng::ZlibBlockInfo
+lz77_lvalue	lodepng_util.h	/^  std::vector<int> lz77_lvalue;$/;"	m	struct:lodepng::ZlibBlockInfo
+m_listener	commbase.h	/^    void (*m_listener)(void* param);$/;"	m	class:CCommSerial
+m_listener	oem.h	/^    void (*m_listener)(void* param);$/;"	m	class:Oem
+m_parameter	commbase.h	/^    void *m_parameter;$/;"	m	class:CCommSerial
+m_parameter	oem.h	/^    void *m_parameter;$/;"	m	class:Oem
+main	lodepng_unittest.cpp	/^int main()$/;"	f
+main	main.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	pngdetail.cpp	/^int main(int argc, char *argv[])$/;"	f
+makeFromLengths	lodepng_util.cpp	/^    int makeFromLengths(const std::vector<unsigned long>& bitlen, unsigned long maxbitlen)$/;"	f	struct:lodepng::ExtractZlib::HuffmanTree
+maxbitlen	lodepng.cpp	/^  unsigned maxbitlen; \/*maximum number of bits a single code can get*\/$/;"	m	struct:HuffmanTree	file:
+minmatch	lodepng.h	/^  unsigned minmatch; \/*mininum lz77 length. 3 is normally best, 6 can be better for some PNGs. Default: 0*\/$/;"	m	struct:LodePNGCompressSettings
+minute	lodepng.h	/^  unsigned minute;  \/*0-59*\/$/;"	m	struct:LodePNGTime
+mode_str	rs232.c	/^char mode_str[128];$/;"	v
+month	lodepng.h	/^  unsigned month;   \/*1-12*\/$/;"	m	struct:LodePNGTime
+nParam	oemp.h	/^    uint	nParam;$/;"	m	struct:__anon6
+new_port_settings	rs232.c	/^struct termios new_port_settings,$/;"	v	typeref:struct:termios
+nicematch	lodepng.h	/^  unsigned nicematch; \/*stop searching if >= this length found. Set to 258 for best compression. Default: 128*\/$/;"	m	struct:LodePNGCompressSettings
+numcodes	lodepng.cpp	/^  unsigned numcodes; \/*number of symbols in the alphabet = number of codes*\/$/;"	m	struct:HuffmanTree	file:
+numcolors	lodepng.h	/^  unsigned numcolors; \/*amount of colors, up to 257. Not valid if bits == 16.*\/$/;"	m	struct:LodePNGColorProfile
+numlen	lodepng_util.h	/^  size_t numlen; \/\/number of len codes in this block$/;"	m	struct:lodepng::ZlibBlockInfo
+numlit	lodepng_util.h	/^  size_t numlit; \/\/number of lit codes in this block$/;"	m	struct:lodepng::ZlibBlockInfo
+oem	controller.h	/^    Oem *oem;$/;"	m	class:LedLocker
+oem	controller.h	/^    Oem oem;$/;"	m	class:Controller
+oemp	oem.h	/^    Oemp oemp;$/;"	m	class:Oem
+old_port_settings	rs232.c	/^       old_port_settings[38];$/;"	v	typeref:struct:
+open	commbase_rs232.cpp	/^bool Rs232CommSerial::open(const std::string &port, uint dwBaudrate) {$/;"	f	class:Rs232CommSerial
+open	oemp.cpp	/^int Oemp::open(const std::string &port, uint baudrate) {$/;"	f	class:Oemp
+openOem	oem.cpp	/^int Oem::openOem() {$/;"	f	class:Oem
+openPort	oem.cpp	/^int Oem::openPort(const std::string &port, uint baudrate) {$/;"	f	class:Oem
+operator &	controller_wrap.cpp	/^  T *operator&() { return pointer.ptr; }$/;"	f	class:SwigValueWrapper
+operator =	controller_wrap.cpp	/^    SwigMovePointer& operator=(SwigMovePointer& rhs) { T* oldptr = ptr; ptr = 0; delete oldptr; ptr = rhs.ptr; rhs.ptr = 0; return *this; }$/;"	f	struct:SwigValueWrapper::SwigMovePointer
+operator =	controller_wrap.cpp	/^  SwigValueWrapper& operator=(const T& t) { SwigMovePointer tmp(new T(t)); pointer = tmp; return *this; }$/;"	f	class:SwigValueWrapper
+operator =	lodepng.cpp	/^State& State::operator=(const State& other)$/;"	f	class:lodepng::State
+operator T&	controller_wrap.cpp	/^  operator T&() const { return *pointer.ptr; }$/;"	f	class:SwigValueWrapper
+paethPredictor	lodepng.cpp	/^static unsigned char paethPredictor(short a, short b, short c)$/;"	f	file:
+palette	lodepng.h	/^  unsigned char palette[1024]; \/*Remembers up to the first 256 RGBA colors, in no particular order*\/$/;"	m	struct:LodePNGColorProfile
+palette	lodepng.h	/^  unsigned char* palette; \/*palette in RGBARGBA... order. When allocated, must be either 0, or have size 1024*\/$/;"	m	struct:LodePNGColorMode
+palettesize	lodepng.h	/^  size_t palettesize; \/*palette size in number of colors (amount of bytes is 4 * palettesize)*\/$/;"	m	struct:LodePNGColorMode
+phys_defined	lodepng.h	/^  unsigned phys_defined; \/*if 0, there is no pHYs chunk and the values below are undefined, if 1 else there is one*\/$/;"	m	struct:LodePNGInfo
+phys_unit	lodepng.h	/^  unsigned phys_unit; \/*may be 0 (unknown unit) or 1 (metre)*\/$/;"	m	struct:LodePNGInfo
+phys_x	lodepng.h	/^  unsigned phys_x; \/*pixels per unit in x direction*\/$/;"	m	struct:LodePNGInfo
+phys_y	lodepng.h	/^  unsigned phys_y; \/*pixels per unit in y direction*\/$/;"	m	struct:LodePNGInfo
+pointer	controller_wrap.cpp	/^  } pointer;$/;"	m	class:SwigValueWrapper	typeref:struct:SwigValueWrapper::SwigMovePointer	file:
+port	config.h	/^    std::string port;$/;"	m	class:Config
+postProcessScanlines	lodepng.cpp	/^static unsigned postProcessScanlines(unsigned char* out, unsigned char* in,$/;"	f	file:
+preProcessScanlines	lodepng.cpp	/^static unsigned preProcessScanlines(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f	file:
+predefined_filters	lodepng.h	/^  const unsigned char* predefined_filters;$/;"	m	struct:LodePNGEncoderSettings
+printZlibInfo	pngdetail.cpp	/^void printZlibInfo(const std::vector<unsigned char>& in, const Options& options)$/;"	f
+ptr	controller_wrap.cpp	/^    T *ptr;$/;"	m	struct:SwigValueWrapper::SwigMovePointer	file:
+read	commbase_rs232.cpp	/^int64 Rs232CommSerial::read(uchar *buffer, uint nSize) {$/;"	f	class:Rs232CommSerial
+read	oemp.cpp	/^int Oemp::read(ushort wDevID, uchar* pBuf, int nSize) {$/;"	f	class:Oemp
+read32bitInt	lodepng_util.cpp	/^  unsigned long read32bitInt(const unsigned char* buffer)$/;"	f	struct:lodepng::ExtractPNG
+readAck	oemp.cpp	/^int Oemp::readAck(ushort wDevID, ushort* wAck, int* pnParam) {$/;"	f	class:Oemp
+readAll	utils.cpp	/^int64 Utils::readAll(const std::string &filename, uchar *buffer, uint size) {$/;"	f	class:Utils
+readBitFromReversedStream	lodepng.cpp	/^static unsigned char readBitFromReversedStream(size_t* bitpointer, const unsigned char* bitstream)$/;"	f	file:
+readBitFromReversedStream	lodepng_util.cpp	/^  unsigned long readBitFromReversedStream(size_t& bitp, const unsigned char* bits)$/;"	f	struct:lodepng::ExtractPNG
+readBitFromStream	lodepng.cpp	/^static unsigned char readBitFromStream(size_t* bitpointer, const unsigned char* bitstream)$/;"	f	file:
+readBitFromStream	lodepng_util.cpp	/^  unsigned long readBitFromStream(size_t& bitp, const unsigned char* bits)$/;"	f	struct:lodepng::ExtractZlib
+readBitsFromReversedStream	lodepng.cpp	/^static unsigned readBitsFromReversedStream(size_t* bitpointer, const unsigned char* bitstream, size_t nbits)$/;"	f	file:
+readBitsFromReversedStream	lodepng_util.cpp	/^  unsigned long readBitsFromReversedStream(size_t& bitp, const unsigned char* bits, unsigned long nbits)$/;"	f	struct:lodepng::ExtractPNG
+readBitsFromStream	lodepng.cpp	/^static unsigned readBitsFromStream(size_t* bitpointer, const unsigned char* bitstream, size_t nbits)$/;"	f	file:
+readBitsFromStream	lodepng_util.cpp	/^  unsigned long readBitsFromStream(size_t& bitp, const unsigned char* bits, size_t nbits)$/;"	f	struct:lodepng::ExtractZlib
+readChunk_PLTE	lodepng.cpp	/^static unsigned readChunk_PLTE(LodePNGColorMode* color, const unsigned char* data, size_t chunkLength)$/;"	f	file:
+readChunk_bKGD	lodepng.cpp	/^static unsigned readChunk_bKGD(LodePNGInfo* info, const unsigned char* data, size_t chunkLength)$/;"	f	file:
+readChunk_iTXt	lodepng.cpp	/^static unsigned readChunk_iTXt(LodePNGInfo* info, const LodePNGDecompressSettings* zlibsettings,$/;"	f	file:
+readChunk_pHYs	lodepng.cpp	/^static unsigned readChunk_pHYs(LodePNGInfo* info, const unsigned char* data, size_t chunkLength)$/;"	f	file:
+readChunk_tEXt	lodepng.cpp	/^static unsigned readChunk_tEXt(LodePNGInfo* info, const unsigned char* data, size_t chunkLength)$/;"	f	file:
+readChunk_tIME	lodepng.cpp	/^static unsigned readChunk_tIME(LodePNGInfo* info, const unsigned char* data, size_t chunkLength)$/;"	f	file:
+readChunk_tRNS	lodepng.cpp	/^static unsigned readChunk_tRNS(LodePNGColorMode* color, const unsigned char* data, size_t chunkLength)$/;"	f	file:
+readChunk_zTXt	lodepng.cpp	/^static unsigned readChunk_zTXt(LodePNGInfo* info, const LodePNGDecompressSettings* zlibsettings,$/;"	f	file:
+readPngHeader	lodepng_util.cpp	/^  void readPngHeader(const unsigned char* in, size_t inlength)$/;"	f	struct:lodepng::ExtractPNG
+read_text_chunks	lodepng.h	/^  unsigned read_text_chunks; \/*if false but remember_unknown_chunks is true, they're stored in the unknown chunks*\/$/;"	m	struct:LodePNGDecoderSettings
+remember_unknown_chunks	lodepng.h	/^  unsigned remember_unknown_chunks;$/;"	m	struct:LodePNGDecoderSettings
+removePaddingBits	lodepng.cpp	/^static void removePaddingBits(unsigned char* out, const unsigned char* in,$/;"	f	file:
+removeSpaces	lodepng_unittest.cpp	/^std::string removeSpaces(const std::string& s)$/;"	f
+rgba16ToPixel	lodepng.cpp	/^static void rgba16ToPixel(unsigned char* out, size_t i,$/;"	f	file:
+rgba8ToPixel	lodepng.cpp	/^static unsigned rgba8ToPixel(unsigned char* out, size_t i,$/;"	f	file:
+rs232_INCLUDED	rs232.h	38;"	d
+saveLastImage	helper.cpp	/^void Helper::saveLastImage(const std::string &_filename) {$/;"	f	class:Helper
+save_file	lodepng.cpp	/^void save_file(const std::vector<unsigned char>& buffer, const std::string& filename)$/;"	f	namespace:lodepng
+searchCodeIndex	lodepng.cpp	/^static size_t searchCodeIndex(const unsigned* array, size_t array_size, size_t value)$/;"	f	file:
+second	lodepng.h	/^  unsigned second;  \/*0-60 (to allow for leap seconds)*\/$/;"	m	struct:LodePNGTime
+serial_port	oemp.h	/^    CCommSerial *serial_port;$/;"	m	class:Oemp
+setBitOfReversedStream	lodepng.cpp	/^static void setBitOfReversedStream(size_t* bitpointer, unsigned char* bitstream, unsigned char bit)$/;"	f	file:
+setBitOfReversedStream	lodepng_util.cpp	/^  void setBitOfReversedStream(size_t& bitp, unsigned char* bits, unsigned long bit)$/;"	f	struct:lodepng::ExtractPNG
+setBitOfReversedStream0	lodepng.cpp	/^static void setBitOfReversedStream0(size_t* bitpointer, unsigned char* bitstream, unsigned char bit)$/;"	f	file:
+setCallback	commbase.cpp	/^void CCommSerial::setCallback(void(*listener)(void*p), void *parameter) {$/;"	f	class:CCommSerial
+setCallback	oem.cpp	/^void Oem::setCallback(void(*listener)(void*p), void *parameter) {$/;"	f	class:Oem
+setCallback	oemp.cpp	/^void Oemp::setCallback(void(*listener)(void*p), void *parameter) {$/;"	f	class:Oemp
+setImage	helper.cpp	/^void Helper::setImage(uchar *image, ImageType type) {$/;"	f	class:Helper
+setResult	controller.cpp	/^void Controller::setResult(const std::string &line1, const std::string &line2) {$/;"	f	class:Controller
+setResult	controllerJni.cpp	/^void Controller::setResult(const std::string &line1, const std::string &line2) {$/;"	f	class:Controller
+setResult	helper.cpp	/^void Helper::setResult(const std::string &line1, const std::string &line2) {$/;"	f	class:Helper
+setTimeout	commbase.cpp	/^void CCommSerial::setTimeout(uint dwTimeOut) {$/;"	f	class:CCommSerial
+setup	controller.cpp	/^void Controller::setup(Helper *_ui, void (*_handler)(void* param)) {$/;"	f	class:Controller
+setup	controllerJni.cpp	/^void Controller::setup(Helper *_ui, void (*_handler)(void* param)) {$/;"	f	class:Controller
+showFileInfo	pngdetail.cpp	/^unsigned showFileInfo(const std::string& filename, const Options& options)$/;"	f
+showHelp	pngdetail.cpp	/^void showHelp()$/;"	f
+show_ascii_art	pngdetail.cpp	/^  bool show_ascii_art; \/\/show ascii art image of the whole PNG$/;"	m	struct:Options	file:
+show_chunks	pngdetail.cpp	/^  bool show_chunks; \/\/show the PNG chunk names and their lengths$/;"	m	struct:Options	file:
+show_chunks2	pngdetail.cpp	/^  bool show_chunks2; \/\/alternate form to print chunks$/;"	m	struct:Options	file:
+show_colors_hex	pngdetail.cpp	/^  bool show_colors_hex; \/\/show all pixel colors in RGBA CSS hex format$/;"	m	struct:Options	file:
+show_colors_hex_16	pngdetail.cpp	/^  bool show_colors_hex_16; \/\/show all pixels colors with 16-bit per channel RGBA info$/;"	m	struct:Options	file:
+show_extra_png_info	pngdetail.cpp	/^  bool show_extra_png_info; \/\/in addition to show_png_info, show extra info$/;"	m	struct:Options	file:
+show_filters	pngdetail.cpp	/^  bool show_filters; \/\/show the PNG filter of each scanline (not supported for interlaced PNGs currently)$/;"	m	struct:Options	file:
+show_palette	pngdetail.cpp	/^  bool show_palette; \/\/show all palette values$/;"	m	struct:Options	file:
+show_palette_pixels	pngdetail.cpp	/^  bool show_palette_pixels; \/\/show palette indices of pixels$/;"	m	struct:Options	file:
+show_png_info	pngdetail.cpp	/^  bool show_png_info; \/\/show things like filesize, width, height, palette size, ...$/;"	m	struct:Options	file:
+show_png_summary	pngdetail.cpp	/^  bool show_png_summary; \/\/show filesize, pixels and color type on single line$/;"	m	struct:Options	file:
+size	lodepng.cpp	/^  size_t size; \/*size in number of unsigned longs*\/$/;"	m	struct:uivector	file:
+size	lodepng.cpp	/^  size_t size; \/*used size*\/$/;"	m	struct:ucvector	file:
+string_cleanup	lodepng.cpp	/^static void string_cleanup(char** out)$/;"	f	file:
+string_init	lodepng.cpp	/^static void string_init(char** out)$/;"	f	file:
+string_resize	lodepng.cpp	/^static unsigned string_resize(char** out, size_t size)$/;"	f	file:
+string_set	lodepng.cpp	/^static void string_set(char** out, const char* in)$/;"	f	file:
+strtovector	lodepng_unittest.cpp	/^std::vector<unsigned> strtovector(const std::string& numbers)$/;"	f
+symbols	lodepng.cpp	/^  uivector symbols;$/;"	m	struct:Coin	file:
+test16bitColorEndianness	lodepng_unittest.cpp	/^void test16bitColorEndianness()$/;"	f
+testAutoColorModel	lodepng_unittest.cpp	/^void testAutoColorModel(const std::vector<unsigned char>& colors, unsigned inbitdepth, LodePNGColorType colortype, unsigned bitdepth, bool key)$/;"	f
+testAutoColorModels	lodepng_unittest.cpp	/^void testAutoColorModels()$/;"	f
+testChunkUtil	lodepng_unittest.cpp	/^void testChunkUtil()$/;"	f
+testColor	lodepng_unittest.cpp	/^void testColor(int r, int g, int b, int a)$/;"	f
+testColorConvert	lodepng_unittest.cpp	/^void testColorConvert()$/;"	f
+testColorConvert2	lodepng_unittest.cpp	/^void testColorConvert2()$/;"	f
+testColorKeyConvert	lodepng_unittest.cpp	/^void testColorKeyConvert()$/;"	f
+testComplexPNG	lodepng_unittest.cpp	/^void testComplexPNG()$/;"	f
+testCompressStringZlib	lodepng_unittest.cpp	/^void testCompressStringZlib(const std::string& text, bool compressible)$/;"	f
+testCompressZlib	lodepng_unittest.cpp	/^void testCompressZlib()$/;"	f
+testCustomDeflate	lodepng_unittest.cpp	/^void testCustomDeflate()$/;"	f
+testCustomInflate	lodepng_unittest.cpp	/^void testCustomInflate()$/;"	f
+testCustomZlibCompress	lodepng_unittest.cpp	/^void testCustomZlibCompress()$/;"	f
+testCustomZlibCompress2	lodepng_unittest.cpp	/^void testCustomZlibCompress2()$/;"	f
+testCustomZlibDecompress	lodepng_unittest.cpp	/^void testCustomZlibDecompress()$/;"	f
+testDiskCompressZlib	lodepng_unittest.cpp	/^void testDiskCompressZlib(const std::string& filename)$/;"	f
+testDiskPNG	lodepng_unittest.cpp	/^void testDiskPNG(const std::string& filename)$/;"	f
+testFuzzing	lodepng_unittest.cpp	/^void testFuzzing()$/;"	f
+testHuffmanCodeLengths	lodepng_unittest.cpp	/^void testHuffmanCodeLengths()$/;"	f
+testOtherPattern1	lodepng_unittest.cpp	/^void testOtherPattern1()$/;"	f
+testOtherPattern2	lodepng_unittest.cpp	/^void testOtherPattern2()$/;"	f
+testPNGCodec	lodepng_unittest.cpp	/^void testPNGCodec()$/;"	f
+testPaletteFilterTypesZero	lodepng_unittest.cpp	/^void testPaletteFilterTypesZero()$/;"	f
+testPaletteToPaletteConvert	lodepng_unittest.cpp	/^void testPaletteToPaletteConvert()$/;"	f
+testPngSuiteTiny	lodepng_unittest.cpp	/^void testPngSuiteTiny()$/;"	f
+testPredefinedFilters	lodepng_unittest.cpp	/^void testPredefinedFilters() {$/;"	f
+testRGBToPaletteConvert	lodepng_unittest.cpp	/^void testRGBToPaletteConvert()$/;"	f
+testSinglePixel	lodepng_unittest.cpp	/^void testSinglePixel(int r, int g, int b, int a)$/;"	f
+testSize	lodepng_unittest.cpp	/^void testSize(int w, int h)$/;"	f
+testWrongWindowSizeGivesError	lodepng_unittest.cpp	/^void testWrongWindowSizeGivesError() {$/;"	f
+text_compression	lodepng.h	/^  unsigned text_compression;$/;"	m	struct:LodePNGEncoderSettings
+text_keys	lodepng.h	/^  char** text_keys; \/*the keyword of a text chunk (e.g. "Comment")*\/$/;"	m	struct:LodePNGInfo
+text_num	lodepng.h	/^  size_t text_num; \/*the amount of texts in these char** buffers (there may be more texts in itext)*\/$/;"	m	struct:LodePNGInfo
+text_strings	lodepng.h	/^  char** text_strings; \/*the actual text*\/$/;"	m	struct:LodePNGInfo
+time	lodepng.h	/^  LodePNGTime time;$/;"	m	struct:LodePNGInfo
+timeOut	commbase.h	/^    uint timeOut;$/;"	m	class:CCommSerial
+time_defined	lodepng.h	/^  unsigned time_defined; \/*set to 1 to make the encoder generate a tIME chunk*\/$/;"	m	struct:LodePNGInfo
+toBase64	lodepng_unittest.cpp	/^void toBase64(T& out, const U& in)$/;"	f
+toLower	utils.cpp	/^std::string Utils::toLower(const std::string &_s) {$/;"	f	class:Utils
+toUpper	utils.cpp	/^std::string Utils::toUpper(const std::string &_s) {$/;"	f	class:Utils
+tree1d	lodepng.cpp	/^  unsigned* tree1d;$/;"	m	struct:HuffmanTree	file:
+tree2d	lodepng.cpp	/^  unsigned* tree2d;$/;"	m	struct:HuffmanTree	file:
+tree2d	lodepng_util.cpp	/^    std::vector<unsigned long> tree2d;$/;"	m	struct:lodepng::ExtractZlib::HuffmanTree	file:
+treebits	lodepng_util.h	/^  size_t treebits; \/\/encoded tree size in bits$/;"	m	struct:lodepng::ZlibBlockInfo
+treecodes	lodepng_util.h	/^  std::vector<int> treecodes; \/\/N tree codes, with values 0-18. Values 17 or 18 are followed by the repetition value.$/;"	m	struct:lodepng::ZlibBlockInfo
+uchar	config.h	/^typedef unsigned char uchar;       \/* 8 bit signed *\/$/;"	t
+ucvector	lodepng.cpp	/^typedef struct ucvector$/;"	s	file:
+ucvector	lodepng.cpp	/^} ucvector;$/;"	t	typeref:struct:ucvector	file:
+ucvector_cleanup	lodepng.cpp	/^static void ucvector_cleanup(void* p)$/;"	f	file:
+ucvector_init	lodepng.cpp	/^static void ucvector_init(ucvector* p)$/;"	f	file:
+ucvector_init_buffer	lodepng.cpp	/^static void ucvector_init_buffer(ucvector* p, unsigned char* buffer, size_t size)$/;"	f	file:
+ucvector_push_back	lodepng.cpp	/^static unsigned ucvector_push_back(ucvector* p, unsigned char c)$/;"	f	file:
+ucvector_reserve	lodepng.cpp	/^static unsigned ucvector_reserve(ucvector* p, size_t allocsize)$/;"	f	file:
+ucvector_resize	lodepng.cpp	/^static unsigned ucvector_resize(ucvector* p, size_t size)$/;"	f	file:
+ucvector_resizev	lodepng.cpp	/^static unsigned ucvector_resizev(ucvector* p, size_t size, unsigned char value)$/;"	f	file:
+ui	controller.h	/^    Helper *ui;$/;"	m	class:Controller
+uint	config.h	/^typedef unsigned int uint;         \/* 32 bit unsigned *\/$/;"	t
+uint16	config.h	/^typedef unsigned short uint16;     \/* 16 bit unsigned *\/$/;"	t
+uint32	config.h	/^typedef unsigned int uint32;       \/* 32 bit unsigned *\/$/;"	t
+uint64	config.h	/^typedef unsigned long long uint64; \/* 64 bit unsigned *\/$/;"	t
+uint8	config.h	/^typedef unsigned char uint8;       \/* 8 bit unsigned *\/$/;"	t
+uivector	lodepng.cpp	/^typedef struct uivector$/;"	s	file:
+uivector	lodepng.cpp	/^} uivector;$/;"	t	typeref:struct:uivector	file:
+uivector_cleanup	lodepng.cpp	/^static void uivector_cleanup(void* p)$/;"	f	file:
+uivector_copy	lodepng.cpp	/^static unsigned uivector_copy(uivector* p, const uivector* q)$/;"	f	file:
+uivector_init	lodepng.cpp	/^static void uivector_init(uivector* p)$/;"	f	file:
+uivector_push_back	lodepng.cpp	/^static unsigned uivector_push_back(uivector* p, unsigned c)$/;"	f	file:
+uivector_reserve	lodepng.cpp	/^static unsigned uivector_reserve(uivector* p, size_t allocsize)$/;"	f	file:
+uivector_resize	lodepng.cpp	/^static unsigned uivector_resize(uivector* p, size_t size)$/;"	f	file:
+uivector_resizev	lodepng.cpp	/^static unsigned uivector_resizev(uivector* p, size_t size, unsigned value)$/;"	f	file:
+uncompressedbytes	lodepng_util.h	/^  size_t uncompressedbytes; \/\/size of uncompressed block in bytes$/;"	m	struct:lodepng::ZlibBlockInfo
+unfilter	lodepng.cpp	/^static unsigned unfilter(unsigned char* out, const unsigned char* in, unsigned w, unsigned h, unsigned bpp)$/;"	f	file:
+unfilterScanline	lodepng.cpp	/^static unsigned unfilterScanline(unsigned char* recon, const unsigned char* scanline, const unsigned char* precon,$/;"	f	file:
+unknown_chunks_data	lodepng.h	/^  unsigned char* unknown_chunks_data[3];$/;"	m	struct:LodePNGInfo
+unknown_chunks_size	lodepng.h	/^  size_t unknown_chunks_size[3]; \/*size in bytes of the unknown chunks, given for protection*\/$/;"	m	struct:LodePNGInfo
+updateHashChain	lodepng.cpp	/^static void updateHashChain(Hash* hash, size_t wpos, unsigned hashval, unsigned short numzeros)$/;"	f	file:
+update_adler32	lodepng.cpp	/^static unsigned update_adler32(unsigned adler, const unsigned char* data, unsigned len)$/;"	f	file:
+usbInternalCheck	oem.cpp	/^int Oem::usbInternalCheck() {$/;"	f	class:Oem
+use_hex	pngdetail.cpp	/^  bool use_hex; \/\/show some sizes or positions in hexadecimal$/;"	m	struct:Options	file:
+use_lz77	lodepng.h	/^  unsigned use_lz77; \/*whether or not to use LZ77. Should be 1 for proper compression.*\/$/;"	m	struct:LodePNGCompressSettings
+ushort	config.h	/^typedef unsigned short ushort;     \/* 16 bit unsigned *\/$/;"	t
+val	lodepng.cpp	/^  int* val; \/*circular pos to hash value*\/$/;"	m	struct:Hash	file:
+valtostr	lodepng_unittest.cpp	/^std::string valtostr(const T& val)$/;"	f
+verify	oem.cpp	/^int Oem::verify(int nPos) {$/;"	f	class:Oem
+verifyTemplate	oem.cpp	/^int Oem::verifyTemplate(int nPos) {$/;"	f	class:Oem
+wChkSum	oemp.h	/^    ushort 	wChkSum;$/;"	m	struct:__anon6
+wCmd	oemp.h	/^    ushort	wCmd;\/\/ or nAck$/;"	m	struct:__anon6
+wDevId	oemp.h	/^    ushort	wDevId;$/;"	m	struct:__anon6
+weight	lodepng.cpp	/^  float weight; \/*the sum of all weights in this coin*\/$/;"	m	struct:Coin	file:
+width	lodepng_unittest.cpp	/^  unsigned width;$/;"	m	struct:Image	file:
+windowsize	lodepng.h	/^  unsigned windowsize; \/*must be a power of two <= 32768. higher compresses more but is slower. Default value: 2048.*\/$/;"	m	struct:LodePNGCompressSettings
+write	commbase_rs232.cpp	/^int64 Rs232CommSerial::write(uchar *buffer, uint nSize) {$/;"	f	class:Rs232CommSerial
+write	oemp.cpp	/^int Oemp::write(ushort wDevID, uchar* pBuf, int nSize) {$/;"	f	class:Oemp
+writeAll	utils.cpp	/^int64 Utils::writeAll(const std::string &filename, uchar *buffer, uint size) {$/;"	f	class:Utils
+writeCmd	oemp.cpp	/^int Oemp::writeCmd(ushort wDevID, ushort wCmd, uint nParam) {$/;"	f	class:Oemp
+writeLZ77data	lodepng.cpp	/^static void writeLZ77data(size_t* bp, ucvector* out, const uivector* lz77_encoded,$/;"	f	file:
+writeSignature	lodepng.cpp	/^static void writeSignature(ucvector* out)$/;"	f	file:
+year	lodepng.h	/^  unsigned year;    \/*2 bytes used (0-65535)*\/$/;"	m	struct:LodePNGTime
+zeros	lodepng.cpp	/^  unsigned short* zeros; \/*length of zeros streak, used as a second hash chain*\/$/;"	m	struct:Hash	file:
+zlib_blocks	pngdetail.cpp	/^  bool zlib_blocks; \/\/show type, tree info, code length summaries and sizes for each zlib block$/;"	m	struct:Options	file:
+zlib_compress	lodepng.cpp	/^static unsigned zlib_compress(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f	file:
+zlib_counts	pngdetail.cpp	/^  bool zlib_counts; \/\/in addition to the zlib_blocks info, show counts of occurances all symbols$/;"	m	struct:Options	file:
+zlib_decompress	lodepng.cpp	/^static unsigned zlib_decompress(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f	file:
+zlib_full	pngdetail.cpp	/^  bool zlib_full; \/\/in addition to the zlib_blocks info, show all symbols, one per line (huge output)$/;"	m	struct:Options	file:
+zlib_info	pngdetail.cpp	/^  bool zlib_info; \/\/show basic zlib info$/;"	m	struct:Options	file:
+zlibinfo	lodepng_util.cpp	/^  std::vector<ZlibBlockInfo>* zlibinfo;$/;"	m	struct:lodepng::ExtractPNG	file:
+zlibinfo	lodepng_util.cpp	/^  std::vector<ZlibBlockInfo>* zlibinfo;$/;"	m	struct:lodepng::ExtractZlib	file:
+zlibsettings	lodepng.h	/^  LodePNGCompressSettings zlibsettings; \/*settings for the zlib encoder, such as window size, ...*\/$/;"	m	struct:LodePNGEncoderSettings
+zlibsettings	lodepng.h	/^  LodePNGDecompressSettings zlibsettings; \/*in here is the setting to ignore Adler32 checksums*\/$/;"	m	struct:LodePNGDecoderSettings
+~CCommSerial	commbase.cpp	/^CCommSerial::~CCommSerial() {$/;"	f	class:CCommSerial
+~Helper	helper.cpp	/^Helper::~Helper() {$/;"	f	class:Helper
+~LedLocker	controller.cpp	/^LedLocker::~LedLocker() {$/;"	f	class:LedLocker
+~LedLocker	controllerJni.cpp	/^LedLocker::~LedLocker() {$/;"	f	class:LedLocker
+~LodePNGState	lodepng.h	/^  virtual ~LodePNGState(){}$/;"	f	struct:LodePNGState
+~Rs232CommSerial	commbase_rs232.cpp	/^Rs232CommSerial::~Rs232CommSerial() {$/;"	f	class:Rs232CommSerial
+~State	lodepng.cpp	/^State::~State()$/;"	f	class:lodepng::State
+~SwigMovePointer	controller_wrap.cpp	/^    ~SwigMovePointer() { delete ptr; }$/;"	f	struct:SwigValueWrapper::SwigMovePointer
